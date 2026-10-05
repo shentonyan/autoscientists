@@ -77,7 +77,7 @@ class RepoTests(unittest.TestCase):
                 self.assertTrue(any(a in m for a in allowed), f"{f.relative_to(ROOT)}: email-like string {m}")
             if f.name != "test_repo_structure.py":
                 self.assertIsNone(bad_path.search(text), f"{f.relative_to(ROOT)}: local path")
-            self.assertNotIn("claude.ai/code/session", text, f.name)
+            self.assertNotIn("claude.ai/code/" + "session", text, f.name)
 
 
 if __name__ == "__main__":
