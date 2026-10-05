@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit tests
+        run: python -m unittest discover -s tests
+      - name: Self-test (the verifier must notice deliberate corruption)
+        run: python -m autosci selftest
+      - name: Status and verification of recorded cards
+        run: |
+          python -m autosci status
+          python -m autosci verify auction-calibration
+          python -m autosci --root examples/quickstart verify dice-sum
+          python -m autosci --root examples/quickstart lint dice-sum --strict
+      - name: Figures are up to date
+        run: python scripts/make_figures.py --check
+
+  frozen-core:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Report changes to the frozen core
+        run: python -m autosci guard --base origin/${{ github.base_ref }}
+        continue-on-error: true
+      - name: Note
+        run: echo "A non-empty guard report is not a failure; the maintainer must approve it."

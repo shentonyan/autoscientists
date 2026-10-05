@@ -1,0 +1,115 @@
+{
+  "card_id": "dice-sum",
+  "card_sha256": "6dbbea3bbde7585813ef4453f5e65a158bd9cd7536cd3d07a1943669f03b5217",
+  "crosscheck": [
+    {
+      "name": "closed-form outcome count is 36",
+      "observed": 36,
+      "ok": true,
+      "reference": 36,
+      "tolerance": "exact"
+    },
+    {
+      "name": "exact P(S>=10) = 6/36 = 1/6",
+      "observed": "6/36",
+      "ok": true,
+      "reference": "6/36",
+      "tolerance": "exact"
+    },
+    {
+      "name": "exact P(S prime) = 15/36 exceeds 1/3",
+      "observed": "15/36",
+      "ok": true,
+      "reference": "15/36",
+      "tolerance": "exact"
+    },
+    {
+      "name": "simulated P(S>=10) vs exact 1/6",
+      "observed": 0.166755,
+      "ok": true,
+      "reference": 0.16666666666666666,
+      "tolerance": "4.0 standard errors"
+    },
+    {
+      "name": "simulated P(S prime) vs exact 15/36",
+      "observed": 0.41597,
+      "ok": true,
+      "reference": 0.4166666666666667,
+      "tolerance": "4.0 standard errors"
+    },
+    {
+      "name": "negative control: exact P(S>=10) is not 1/5",
+      "observed": true,
+      "ok": true,
+      "reference": true,
+      "tolerance": "exact"
+    }
+  ],
+  "evaluation": {
+    "H1": {
+      "detail": {
+        "95% interval high": 0.1674856036908858,
+        "95% interval low": 0.16602439630911417,
+        "P(S>=10) estimate": 0.166755,
+        "claimed value 1/6": 0.16666666666666666,
+        "rolls": 1000000,
+        "standard error": 0.00037275698514581857
+      },
+      "verdict": "supported"
+    },
+    "H2": {
+      "detail": {
+        "95% lower bound": 0.4150039387673245,
+        "95% upper bound": 0.4169360612326755,
+        "P(S prime) estimate": 0.41597,
+        "standard error": 0.0004928883840181264,
+        "threshold 1/3": 0.3333333333333333
+      },
+      "verdict": "supported"
+    },
+    "H3": {
+      "detail": {
+        "P(S>=10) estimate": 0.166755,
+        "claimed value 1/5": 0.2,
+        "distance from 1/5 in standard errors": 89.1867928028094
+      },
+      "verdict": "refuted"
+    }
+  },
+  "experiment_sha256": "6f490083ca205a8aba5443194bdfc26e090a6dc34888bf8156083287e698f81e",
+  "results": {
+    "11": {
+      "ge10": 33456,
+      "n": 200000,
+      "prime": 83215
+    },
+    "12": {
+      "ge10": 33352,
+      "n": 200000,
+      "prime": 83172
+    },
+    "13": {
+      "ge10": 33327,
+      "n": 200000,
+      "prime": 82932
+    },
+    "14": {
+      "ge10": 33232,
+      "n": 200000,
+      "prime": 83479
+    },
+    "15": {
+      "ge10": 33388,
+      "n": 200000,
+      "prime": 83172
+    }
+  },
+  "run_id": "db7748cce205f4bd",
+  "seeds": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ]
+}

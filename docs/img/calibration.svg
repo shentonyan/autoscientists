@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Calibration: simulation against closed form</title><desc id="d">Expected utility versus bid at value 0.4 in two auctions: simulated mean with two standard errors and the closed-form curve.</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="900" height="430" fill="#fcfcfb"/>
+<text x="450.0" y="26.0" font-size="15" fill="#0b0b0b" text-anchor="middle" font-weight="600">Calibration card: simulated vs closed-form expected utility (value v = 0.4)</text>
+<text x="80.0" y="56.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Second-price: best bid = v (truthful)</text>
+<line x1="80.0" y1="330.0" x2="420.0" y2="330.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="74.0" y="334.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.117</text>
+<line x1="80.0" y1="265.0" x2="420.0" y2="265.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="74.0" y="269.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.064</text>
+<line x1="80.0" y1="200.0" x2="420.0" y2="200.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="74.0" y="204.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.011</text>
+<line x1="80.0" y1="135.0" x2="420.0" y2="135.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="74.0" y="139.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">0.042</text>
+<line x1="80.0" y1="70.0" x2="420.0" y2="70.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="74.0" y="74.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">0.096</text>
+<text x="80.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.00</text>
+<text x="165.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.25</text>
+<text x="250.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.50</text>
+<text x="335.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.75</text>
+<text x="420.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">1.00</text>
+<text x="250.0" y="364.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">bid</text>
+<text x="14.0" y="200.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400" transform="rotate(-90 14.0 200.0)">expected utility</text>
+<polyline points="80.0,186.7 97.0,163.8 114.0,143.9 131.0,127.2 148.0,113.4 165.0,102.7 182.0,95.1 199.0,90.5 216.0,89.0 233.0,90.5 250.0,95.1 267.0,102.7 284.0,113.4 301.0,127.2 318.0,143.9 335.0,163.8 352.0,186.7 369.0,212.6 386.0,241.6 403.0,273.7 420.0,308.8" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<line x1="80.0" y1="186.7" x2="80.0" y2="186.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="80.0" cy="186.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="97.0" y1="164.7" x2="97.0" y2="163.0" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="97.0" cy="163.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="114.0" y1="145.0" x2="114.0" y2="142.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="114.0" cy="143.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="131.0" y1="128.8" x2="131.0" y2="126.2" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="131.0" cy="127.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="148.0" y1="115.1" x2="148.0" y2="112.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="148.0" cy="113.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="165.0" y1="104.3" x2="165.0" y2="101.5" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="165.0" cy="102.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="182.0" y1="96.7" x2="182.0" y2="94.0" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="182.0" cy="95.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="199.0" y1="92.1" x2="199.0" y2="89.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="199.0" cy="90.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="216.0" y1="90.6" x2="216.0" y2="87.9" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="216.0" cy="89.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="233.0" y1="92.2" x2="233.0" y2="89.5" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="233.0" cy="90.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="250.0" y1="96.7" x2="250.0" y2="94.0" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="250.0" cy="95.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="267.0" y1="104.6" x2="267.0" y2="101.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="267.0" cy="103.1" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="284.0" y1="115.8" x2="284.0" y2="112.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="284.0" cy="114.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="301.0" y1="129.5" x2="301.0" y2="126.1" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="301.0" cy="127.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="318.0" y1="146.2" x2="318.0" y2="142.5" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="318.0" cy="144.4" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="335.0" y1="166.5" x2="335.0" y2="162.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="335.0" cy="164.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="352.0" y1="190.0" x2="352.0" y2="185.5" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="352.0" cy="187.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="369.0" y1="216.5" x2="369.0" y2="211.6" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="369.0" cy="214.1" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="386.0" y1="246.2" x2="386.0" y2="240.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="386.0" cy="243.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="403.0" y1="277.1" x2="403.0" y2="271.3" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="403.0" cy="274.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="420.0" y1="312.1" x2="420.0" y2="305.8" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="420.0" cy="308.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="216.0" y="77.0" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">max at 0.40</text>
+<text x="510.0" y="56.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">First-price vs opponent bidding x/2: best bid = v/2</text>
+<line x1="510.0" y1="330.0" x2="850.0" y2="330.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="504.0" y="334.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.655</text>
+<line x1="510.0" y1="265.0" x2="850.0" y2="265.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="504.0" y="269.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.457</text>
+<line x1="510.0" y1="200.0" x2="850.0" y2="200.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="504.0" y="204.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.259</text>
+<line x1="510.0" y1="135.0" x2="850.0" y2="135.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="504.0" y="139.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">-0.062</text>
+<line x1="510.0" y1="70.0" x2="850.0" y2="70.0" stroke="#dcdad2" stroke-width="1"/>
+<text x="504.0" y="74.0" font-size="10" fill="#52514e" text-anchor="end" font-weight="400">0.136</text>
+<text x="510.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.00</text>
+<text x="595.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.25</text>
+<text x="680.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.50</text>
+<text x="765.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">0.75</text>
+<text x="850.0" y="346.0" font-size="10" fill="#52514e" text-anchor="middle" font-weight="400">1.00</text>
+<text x="680.0" y="364.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">bid</text>
+<polyline points="510.0,114.7 527.0,103.1 544.0,94.9 561.0,90.0 578.0,88.3 595.0,90.0 612.0,94.9 629.0,103.1 646.0,114.7 663.0,129.5 680.0,147.6 697.0,164.0 714.0,180.5 731.0,196.9 748.0,213.4 765.0,229.8 782.0,246.3 799.0,262.7 816.0,279.2 833.0,295.6 850.0,312.1" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<line x1="510.0" y1="114.7" x2="510.0" y2="114.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="510.0" cy="114.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="527.0" y1="103.3" x2="527.0" y2="102.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="527.0" cy="103.0" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="544.0" y1="95.1" x2="544.0" y2="94.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="544.0" cy="94.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="561.0" y1="90.1" x2="561.0" y2="89.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="561.0" cy="89.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="578.0" y1="88.5" x2="578.0" y2="87.9" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="578.0" cy="88.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="595.0" y1="90.2" x2="595.0" y2="89.8" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="595.0" cy="90.0" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="612.0" y1="95.1" x2="612.0" y2="94.8" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="612.0" cy="94.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="629.0" y1="103.2" x2="629.0" y2="103.1" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="629.0" cy="103.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="646.0" y1="114.7" x2="646.0" y2="114.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="646.0" cy="114.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="663.0" y1="129.5" x2="663.0" y2="129.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="663.0" cy="129.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="680.0" y1="147.6" x2="680.0" y2="147.6" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="680.0" cy="147.6" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="697.0" y1="164.0" x2="697.0" y2="164.0" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="697.0" cy="164.0" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="714.0" y1="180.5" x2="714.0" y2="180.5" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="714.0" cy="180.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="731.0" y1="196.9" x2="731.0" y2="196.9" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="731.0" cy="196.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="748.0" y1="213.4" x2="748.0" y2="213.4" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="748.0" cy="213.4" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="765.0" y1="229.8" x2="765.0" y2="229.8" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="765.0" cy="229.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="782.0" y1="246.3" x2="782.0" y2="246.3" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="782.0" cy="246.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="799.0" y1="262.7" x2="799.0" y2="262.7" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="799.0" cy="262.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="816.0" y1="279.2" x2="816.0" y2="279.2" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="816.0" cy="279.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="833.0" y1="295.6" x2="833.0" y2="295.6" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="833.0" cy="295.6" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<line x1="850.0" y1="312.1" x2="850.0" y2="312.1" stroke="#eb6834" stroke-width="1.5"/>
+<circle cx="850.0" cy="312.1" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="578.0" y="76.3" font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="600">max at 0.20</text>
+<line x1="70.0" y1="402.0" x2="100.0" y2="402.0" stroke="#2a78d6" stroke-width="2"/>
+<text x="106.0" y="406.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="400">closed form</text>
+<circle cx="215" cy="402" r="3.5" fill="#eb6834"/>
+<line x1="215.0" y1="394.0" x2="215.0" y2="410.0" stroke="#eb6834" stroke-width="1.5"/>
+<text x="226.0" y="406.0" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="400">simulated mean ± 2 pooled SE (5 seeds × 10000 draws); error bars are drawn but smaller than the markers</text>
+<text x="850.0" y="424.0" font-size="11" fill="#52514e" text-anchor="end" font-weight="400">largest gap between simulation and closed form: 1.4 SE</text>
+</svg>

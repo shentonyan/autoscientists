@@ -1,0 +1,18 @@
+name: Research idea
+description: Suggest a question for the loop to test
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea and direction
+      description: What should be tested, and what would count as the claim being false?
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: How could the answer be checked independently?
+      description: A closed form, exact enumeration, a second method, or a source that can be read.
+    validations:
+      required: true

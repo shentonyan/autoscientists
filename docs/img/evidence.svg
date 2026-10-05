@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Evidence ladder</title><desc id="d">Four evidence levels, L0 to L3, each requiring the one below.</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="900" height="300" fill="#fcfcfb"/>
+<text x="450.0" y="28.0" font-size="16" fill="#0b0b0b" text-anchor="middle" font-weight="600">Evidence level of a result</text>
+<rect x="40.0" y="168.0" width="190.0" height="100.0" rx="6" fill="#fdeee8" stroke="#eb6834" stroke-width="2"/>
+<text x="54.0" y="194.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">L0  unverified</text>
+<text x="54.0" y="216.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">a check failed or is</text>
+<text x="54.0" y="232.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">missing</text>
+<rect x="250.0" y="134.0" width="190.0" height="134.0" rx="6" fill="#e8f0fb" stroke="#2a78d6" stroke-width="2"/>
+<text x="264.0" y="160.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">L1  reproducible</text>
+<text x="264.0" y="182.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">fresh re-execution is</text>
+<text x="264.0" y="198.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">byte-identical</text>
+<rect x="460.0" y="100.0" width="190.0" height="168.0" rx="6" fill="#e8f0fb" stroke="#2a78d6" stroke-width="2"/>
+<text x="474.0" y="126.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">L2  cross-checked</text>
+<text x="474.0" y="148.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">L1, and every independent</text>
+<text x="474.0" y="164.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">cross-check passed</text>
+<rect x="670.0" y="66.0" width="190.0" height="202.0" rx="6" fill="#e8f0fb" stroke="#2a78d6" stroke-width="2"/>
+<text x="684.0" y="92.0" font-size="15" fill="#0b0b0b" text-anchor="start" font-weight="700">L3  sourced</text>
+<text x="684.0" y="114.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">L2, and every cited source</text>
+<text x="684.0" y="130.0" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">is recorded as verified</text>
+<text x="450.0" y="292.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">Source evidence is primary-text or tool-summary; a hash proves identity, not truth.</text>
+</svg>

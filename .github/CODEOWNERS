@@ -1,0 +1,11 @@
+# The frozen core and the files that govern it need the maintainer.
+/autosci/                      @shentonyan
+/tests/                        @shentonyan
+/PROTOCOL.md                   @shentonyan
+/docs/EVOLUTION.md             @shentonyan
+/state/governor.json           @shentonyan
+/state/protected.json          @shentonyan
+/cards/auction-calibration*    @shentonyan
+/experiments/auction_calibration.py @shentonyan
+/.github/                      @shentonyan
+/.claude/                      @shentonyan

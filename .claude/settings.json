@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m autosci *)",
+      "Bash(python -m unittest *)",
+      "Read(**)"
+    ],
+    "deny": [
+      "Edit(autosci/**)",
+      "Edit(tests/**)",
+      "Edit(PROTOCOL.md)",
+      "Edit(docs/EVOLUTION.md)",
+      "Edit(state/governor.json)",
+      "Edit(state/protected.json)",
+      "Edit(cards/*.lock.json)",
+      "Edit(.claude/settings.json)",
+      "Edit(.claude/agents/**)"
+    ]
+  }
+}

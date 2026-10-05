@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 365" width="900" height="365" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Trust tiers</title><desc id="d">Three tiers of files: frozen core, gated, free.</desc>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="900" height="365" fill="#fcfcfb"/>
+<text x="450.0" y="28.0" font-size="16" fill="#0b0b0b" text-anchor="middle" font-weight="600">Who may change what</text>
+<rect x="30.0" y="50.0" width="840.0" height="80.0" rx="6" fill="#fdeee8" stroke="#eb6834" stroke-width="2"/>
+<text x="50.0" y="80.0" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">Tier 0  frozen core</text>
+<text x="50.0" y="104.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">maintainer only</text>
+<text x="330.0" y="84.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">autosci/*.py, calibration card, tests, PROTOCOL.md,</text>
+<text x="330.0" y="106.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">governor limits, CI and settings files. Checked by guard.</text>
+<rect x="30.0" y="145.0" width="840.0" height="80.0" rx="6" fill="#e8f0fb" stroke="#2a78d6" stroke-width="2"/>
+<text x="50.0" y="175.0" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">Tier 1  gated</text>
+<text x="50.0" y="199.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">loop proposes, maintainer merges</text>
+<text x="330.0" y="179.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">skills, loop/AGENT.md, new experiments, docs.</text>
+<text x="330.0" y="201.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Recorded with evolve propose; the gate must pass; draft PR.</text>
+<rect x="30.0" y="240.0" width="840.0" height="80.0" rx="6" fill="#fcfcfb" stroke="#52514e" stroke-width="2"/>
+<text x="50.0" y="270.0" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="700">Tier 2  free</text>
+<text x="50.0" y="294.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">the loop</text>
+<text x="330.0" y="274.0" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="400">notes, queue, journal, runs, reports, source registry.</text>
+<text x="330.0" y="296.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Normal work, still verified by verify and lint.</text>
+<text x="450.0" y="350.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="400">The evaluator is not edited by the thing it evaluates.</text>
+</svg>
