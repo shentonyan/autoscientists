@@ -1,0 +1,38 @@
+{
+  "files": {
+    "PROTOCOL.md": "7b9884cee9502d83c0c90d6a39345277e9fdd298f5bbf68e8faa51028502304a",
+    "autosci/__init__.py": "34c3a59110de530c8a335f2ce9ea80f1c4a95f054233d682515d9d5e9cb1a366",
+    "autosci/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "autosci/calibration.py": "3637bfd395c9a5be25a340d433ea99c9ccae1b21f8aeaea2d3de4f456c28d14d",
+    "autosci/canon.py": "6493a42ef87b4bb3238a131af7714f25bf1366d2c064c46e3df6ce70c3123a22",
+    "autosci/card.py": "770e52d569d9ae92726f5b70e25e28edcf327fe689bb33c9241d231025c5a7e8",
+    "autosci/cli.py": "02d60d01e67dd07f38befbfe286967d608eb1d8b3d9eb4dec61d08b9f31fe1a5",
+    "autosci/evolve.py": "fe79472a65549c3fdc8e55152aca6d88630dbb9409f093a94c0c22d23680bfe7",
+    "autosci/governor.py": "08e0a5db61aab66ac973b8942e59729bd0fd2a8711c1aa1fdee3fb1a0030afaa",
+    "autosci/guard.py": "f5fe0c118b21af8b2e969802bc883af5872b92f3136a61122fa57a8d6369bfd9",
+    "autosci/ledger.py": "be5b1e47ffd878394863333c9638b47a6aa863b7908cae351a4ac55e0266e1fa",
+    "autosci/lint.py": "4d1e8c2ad7fd06e26a76585e2e834150f78c6260f38afb8a81f3fb8f745139dd",
+    "autosci/paths.py": "522ead1125b5a572fb67bad52d92e466b9794a9653989293e1739069c11aa088",
+    "autosci/report.py": "4660277edc866318b035618681a7694040410aa299bb5129e2564112401a85d9",
+    "autosci/runner.py": "44717739806eb5bef998d7c5ea8055776d546cdcb22c3f717288766d3ffbf117",
+    "autosci/selftest.py": "7b3e744bc641629b2d9b494cd8b7a6d9efd08a1910491f3193fc90445ed1d177",
+    "autosci/sources.py": "14c47a9555ecf8b28bc9de51190cd695cbfa16f204b03fe47ec02b50bbad7926",
+    "cards/auction-calibration.json": "6fb16d6bbb6a55d9a99cf906b20359217d9c6cce8740ebf13ab4e92cd1aa1479",
+    "cards/auction-calibration.lock.json": "ab7f14aa6d9a18ba349d957ca4697e1be29d1c50956cb693562c0cb7eeab79ac",
+    "docs/EVOLUTION.md": "2490dbc3c6b58832a0e1f3a09728fa74e1b3fd08608938db0122c3513fca9b88",
+    "experiments/auction_calibration.py": "4d5889ad0274e3310f56317e0735aeabf7de8ca7a3e9316f42f2f3c0bfe0826e",
+    "state/governor.json": "5bc7572bf7add17318284dd871b3671ca3c0e48c3181c43b2b0f64d3504ebf42",
+    "tests/test_evolution.py": "18c7ddfad9cda3bb3026600423d882ce8253b48ae9a487c14d2c88c5d5351c55",
+    "tests/test_framework.py": "bd157476709720a06030a0e1eeb412f4b405679fbd6fe4f5b1f728bd78ea0901"
+  },
+  "patterns": [
+    "autosci/*.py",
+    "experiments/auction_calibration.py",
+    "cards/auction-calibration.json",
+    "cards/auction-calibration.lock.json",
+    "tests/*.py",
+    "PROTOCOL.md",
+    "docs/EVOLUTION.md",
+    "state/governor.json"
+  ]
+}

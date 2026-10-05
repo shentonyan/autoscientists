@@ -38,6 +38,18 @@ class Layout:
     def sources(self) -> Path:
         return self.state / "sources.jsonl"
 
+    @property
+    def archive(self) -> Path:
+        return self.state / "archive.jsonl"
+
+    @property
+    def governor_config(self) -> Path:
+        return self.state / "governor.json"
+
+    @property
+    def protected(self) -> Path:
+        return self.state / "protected.json"
+
     def card_path(self, card_id: str) -> Path:
         return self.cards / f"{card_id}.json"
 

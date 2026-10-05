@@ -1,0 +1,7 @@
+https://github.com/armgabrielyan/autoloop
+(WebFetch summary text relied on; summarizer output)
+Bounded autonomous optimization loops on real repos; agent proposes one change, `autoloop eval` runs metric + guardrail commands, keep (commit) or discard (revert); state in .autoloop/.
+Eval commands inferred by language heuristics; `autoloop doctor --fix` verifies/rewrites them.
+Guardrails: pass/fail correctness commands, confidence thresholds, verdict keep/discard/rerun, experiment limits (e.g. at most 5), path-scoped git actions.
+Human oversight post-run: `autoloop finalize` groups wins into review branches.
+Summarizer: no sandboxing mentioned; no protection against agent editing eval commands or metrics mentioned.

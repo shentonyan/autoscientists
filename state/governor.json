@@ -1,0 +1,5 @@
+{
+  "max_dry_cards": 5,
+  "max_lineage_depth": 3,
+  "max_trailing_inconclusive": 3
+}

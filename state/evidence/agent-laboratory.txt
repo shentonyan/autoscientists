@@ -1,0 +1,6 @@
+https://github.com/SamuelSchmidgall/AgentLaboratory
+NOTE: text below is the WebFetch tool's model-generated summary, not raw page text.
+
+Three phases: literature review (arXiv), experimentation (planning, data prep, runs), report writing (LaTeX). Specialized LLM agents; tools: arXiv, Hugging Face, Python, LaTeX. Backends: OpenAI (o1, gpt-4o, o3-mini), DeepSeek. Co-pilot mode via YAML for human oversight; automatic checkpoints/resume; task_notes_LLM structure for researcher instructions. AgentRxiv lets agents upload/retrieve each other's research.
+Key files: ai_lab_repo.py, agents.py, mlesolver.py, papersolver.py, experiment_configs/ (e.g. MATH_agentlab.yaml).
+No safety/failure-mode text surfaced in this fetch.

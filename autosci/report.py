@@ -8,6 +8,7 @@ report and compares it byte for byte, so a hand-edited report is detected.
 from __future__ import annotations
 
 from . import card as cardlib
+from . import lint, sources
 from .canon import sha256_text
 from .paths import Layout
 from .runner import LEVELS, verify_card
@@ -86,7 +87,9 @@ def render(layout: Layout, card_id: str, verification: dict) -> str:
     add(f"- results sha256: `{entry['results_sha256']}`")
     add(f"- ledger entry: seq {entry['seq']}, `{entry['entry_sha256']}`")
     if card.get("sources"):
-        add(f"- cited sources (all recorded as verified): {', '.join(card['sources'])}")
+        kinds = {s["id"]: s.get("evidence_kind", "?") for s in sources.read(layout)}
+        cited = ", ".join(f"{sid} ({kinds.get(sid, '?')})" for sid in card["sources"])
+        add(f"- cited sources (all recorded as verified; evidence kind in brackets): {cited}")
     add("")
     add("## Interpretation (author prose, not covered by verification)")
     add("")
@@ -110,6 +113,20 @@ def write_report(layout: Layout, card_id: str) -> tuple[str, dict]:
     layout.reports.mkdir(parents=True, exist_ok=True)
     layout.report_path(card_id).write_text(text, encoding="utf-8")
     return text, verification
+
+
+def check_notes(layout: Layout, card_id: str, verification: dict, strict: bool = False) -> list[str]:
+    """Lint the notes file against the recorded results. No notes file means nothing to check."""
+    path = layout.notes_path(card_id)
+    if not path.exists() or verification["run"] is None:
+        return []
+    body = render(layout, card_id, verification).split("## Interpretation")[0]
+    card = cardlib.load_card(layout, card_id)
+    result = lint.lint_notes(layout, path.read_text(encoding="utf-8"), body, card)
+    problems = list(result["problems"])
+    if strict:
+        problems += result["open"]
+    return [f"notes: {p}" for p in problems]
 
 
 def check_report_current(layout: Layout, card_id: str, verification: dict) -> list[str]:
