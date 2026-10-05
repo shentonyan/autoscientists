@@ -1,0 +1,6 @@
+# Keep line endings stable across platforms: experiment sources and generated reports
+# are hashed, so CRLF checkouts on Windows would break `autosci verify`.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
