@@ -1,0 +1,7 @@
+https://github.com/codelion/openevolve
+(WebFetch summary text relied on; summarizer output)
+Evolutionary coding agent; evolves code regions/functions (Python, Rust, GPU kernels, prompt templates).
+Evaluator: user-supplied function taking path to program, returning metrics; EvaluationResult with artifacts (stderr, profiling).
+Population: MAP-Elites grid (complexity, diversity, performance) plus islands with ring migration; example config population_size 500, num_islands 5, migration_interval 20.
+cascade_evaluation: true enables multi-stage testing.
+Summarizer found no sandboxing discussion and no evaluator-gaming discussion; "MUST NOT CHANGE" items are prompt constraints only.

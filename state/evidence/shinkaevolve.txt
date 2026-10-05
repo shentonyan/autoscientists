@@ -1,0 +1,8 @@
+https://github.com/SakanaAI/ShinkaEvolve
+(WebFetch summary text relied on; summarizer output)
+LLM ensemble as mutation operators over population of programs.
+Evolved: regions between EVOLVE-BLOCK-START / EVOLVE-BLOCK-END markers; patch types diff/full/cross (defaults 60/30/10).
+Evaluator: evaluate.py with run_experiment function, num_runs, returns combined_score, public, private metrics, optional text_feedback/extra_data; optional validate_fn.
+Islands default 2, archive default 40, elite_selection_ratio 0.3, migration every 10 gens; parent selection weighted/power_law/beam_search.
+Novelty rejection: code_embed_sim_threshold 0.99, max_novelty_attempts 3.
+Job configs: local, SLURM Docker, SLURM Conda. No sandboxing/safety or evaluator-gaming statement found by summarizer.

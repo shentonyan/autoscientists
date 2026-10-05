@@ -1,0 +1,5 @@
+https://github.com/microsoft/stop (located via WebSearch)
+(WebFetch summary text relied on; summarizer output)
+Seed improver program queries a language model to improve an input program per a utility function, then is applied to itself; LM weights unchanged.
+Reports evaluating how often generated code bypasses a sandbox. Summarizer saw no explicit run-safety warnings in the fetched content.
+Self-improvement strategies found: beam search, genetic algorithms, simulated annealing.

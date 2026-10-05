@@ -70,11 +70,46 @@ def execute(layout: Layout, card: dict) -> dict:
     return {"results": per_seed, "evaluation": evaluation, "crosscheck": checks}
 
 
+def check_dependencies(layout: Layout, card: dict) -> list[str]:
+    """A card may declare the outcomes of earlier cards it builds on.
+
+    Each dependency names a card, a hypothesis and the verdict required. The
+    dependency must be locked unchanged and its latest recorded run must carry
+    that verdict. This is the hypothesis graph: later work cannot start from a
+    premise that was refuted or never tested.
+    """
+    problems = []
+    for d in card.get("depends_on", []):
+        dep_id = d["card"]
+        lock_problems = cardlib.check_lock(layout, dep_id)
+        if lock_problems:
+            problems.append(f"dependency {dep_id}: " + "; ".join(lock_problems))
+            continue
+        entries = ledger.runs_for_card(layout, dep_id)
+        if not entries:
+            problems.append(f"dependency {dep_id}: no recorded run")
+            continue
+        rf = layout.run_path(entries[-1]["run_id"])
+        if not rf.exists():
+            problems.append(f"dependency {dep_id}: run file missing")
+            continue
+        ev = json.loads(rf.read_text(encoding="utf-8"))["evaluation"]
+        got = ev.get(d["hypothesis"], {}).get("verdict")
+        if got != d["verdict"]:
+            problems.append(
+                f"dependency {dep_id}.{d['hypothesis']} requires '{d['verdict']}' but is '{got}'"
+            )
+    return problems
+
+
 def run_card(layout: Layout, card_id: str) -> dict:
     problems = cardlib.check_lock(layout, card_id)
     if problems:
         raise RunError("refusing to run: " + "; ".join(problems))
     card = cardlib.load_card(layout, card_id)
+    dep_problems = check_dependencies(layout, card)
+    if dep_problems:
+        raise RunError("refusing to run: " + "; ".join(dep_problems))
     hashes = cardlib.current_hashes(layout, card)
     out = execute(layout, card)
     results_sha = digest(out["results"])
@@ -148,6 +183,7 @@ def verify_card(layout: Layout, card_id: str) -> dict:
         source_ids = card.get("sources", [])
         sourced = False
         if source_ids:
+            problems += sources.check_evidence(layout)
             try:
                 for sid in source_ids:
                     sources.cite(layout, sid)

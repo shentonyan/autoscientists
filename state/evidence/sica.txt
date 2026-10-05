@@ -1,0 +1,9 @@
+https://github.com/MaximeRobeyns/self_improving_coding_agent
+(WebFetch summary text relied on; summarizer output)
+SICA: loop of evaluate on benchmarks, archive results, agent works on its own codebase to improve, re-evaluate.
+Benchmarks in base_agent/src/benchmarks/; results JSON per-problem and summary.
+Archive layout: results/run_{id}/agent_{i}/ with code, benchmark results, improvement logs.
+Sandbox: README says always run the agent in the provided Docker container for some isolation.
+Oversight: visualization of agent callgraph, events, overseer messages (asynchronous overseer via event bus, per summarizer).
+Safety: no explicit reward-hacking prevention mentioned; relies on Docker.
+Noted open challenge: variance of self-improvement runs.

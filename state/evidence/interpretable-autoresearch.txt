@@ -1,0 +1,6 @@
+https://github.com/BarishNamazov/interpretable-autoresearch
+(WebFetch summary text relied on; summarizer output)
+Behavioral code: declarative program.md of concepts and reactions; two implementations: model-training (only train.py editable; metric val_bpb from run.log) and performance-engineering (src/ editable; median wall-clock via bench_e2e.py plus checksum correctness; speedups within noise are reverted as below_noise_floor).
+Verification: append-only events.jsonl with caused_by chain; predictions recorded before runs; outcome_vs_prediction logged after; git commit/reset aligned with event log; out-of-scope edits show as diffs without matching Modifying.applied event.
+Stated limits: log catches behavioral divergence but does not prevent prompt injection, deception, sandbagging; sandboxing/capability restriction/alignment evals not claimed.
+Acknowledged risk: agent could fabricate reasoning after the fact; mitigated by timestamps. No actual observed cheating reported (summarizer).

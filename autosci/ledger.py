@@ -1,13 +1,17 @@
-"""Append-only, hash-chained ledger of runs.
+"""Append-only, hash-chained ledgers.
 
 Each entry commits to the previous entry's hash, so editing or deleting an old
 entry breaks every later link. This detects accidental or after-the-fact edits;
 it is not a defence against someone rewriting the whole file and repository
 history, which git history review covers.
+
+The run ledger (state/ledger.jsonl) is the default. The variant archive uses the
+same mechanism on its own file.
 """
 from __future__ import annotations
 
 import json
+from pathlib import Path
 
 from .canon import digest
 from .paths import Layout
@@ -15,11 +19,16 @@ from .paths import Layout
 GENESIS = "0" * 64
 
 
-def read(layout: Layout) -> list[dict]:
-    if not layout.ledger.exists():
+def _path(layout: Layout, path: Path | None) -> Path:
+    return Path(path) if path else layout.ledger
+
+
+def read(layout: Layout, path: Path | None = None) -> list[dict]:
+    p = _path(layout, path)
+    if not p.exists():
         return []
     entries = []
-    with open(layout.ledger, encoding="utf-8") as fh:
+    with open(p, encoding="utf-8") as fh:
         for line in fh:
             line = line.strip()
             if line:
@@ -32,21 +41,22 @@ def _entry_hash(entry: dict) -> str:
     return digest(body)
 
 
-def append(layout: Layout, record: dict) -> dict:
-    entries = read(layout)
+def append(layout: Layout, record: dict, path: Path | None = None) -> dict:
+    p = _path(layout, path)
+    entries = read(layout, p)
     prev = entries[-1]["entry_sha256"] if entries else GENESIS
     entry = {"seq": len(entries), "prev": prev, **record}
     entry["entry_sha256"] = _entry_hash(entry)
-    layout.state.mkdir(parents=True, exist_ok=True)
-    with open(layout.ledger, "a", encoding="utf-8") as fh:
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with open(p, "a", encoding="utf-8") as fh:
         fh.write(json.dumps(entry, sort_keys=True, ensure_ascii=False) + "\n")
     return entry
 
 
-def verify_chain(layout: Layout) -> list[str]:
+def verify_chain(layout: Layout, path: Path | None = None) -> list[str]:
     problems = []
     prev = GENESIS
-    for i, entry in enumerate(read(layout)):
+    for i, entry in enumerate(read(layout, path)):
         if entry.get("seq") != i:
             problems.append(f"entry {i}: seq is {entry.get('seq')}")
         if entry.get("prev") != prev:
