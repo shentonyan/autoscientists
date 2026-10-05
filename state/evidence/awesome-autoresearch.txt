@@ -1,0 +1,4 @@
+https://github.com/yibie/awesome-autoresearch (first WebFetch of repo page: did not find the two entries)
+https://raw.githubusercontent.com/yibie/awesome-autoresearch/main/README.md (second fetch: found)
+interpretable-autoresearch -> https://github.com/BarishNamazov/interpretable-autoresearch ; listed as making autoresearch agent behavior transparent/auditable via behavioral specifications, 2nd place at MIT Spring 2026 Hackathon.
+autoloop -> https://github.com/armgabrielyan/autoloop ; listed as generalizing Karpathy's autoresearch into bounded repo-level loops with inferred eval commands, explicit guardrails, keep/discard decisions across multiple coding agents.

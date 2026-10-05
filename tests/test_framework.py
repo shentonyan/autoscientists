@@ -197,10 +197,19 @@ class TestSources(Base):
         with self.assertRaises(sources.SourceError):
             sources.add(self.layout, "s1", "https://example.org/b", "B", "verified")
 
+    def test_verified_source_needs_evidence_kind(self):
+        ev = self.tmp / "evidence.txt"
+        ev.write_text("text", encoding="utf-8")
+        with self.assertRaises(sources.SourceError):
+            sources.add(self.layout, "s1", "https://example.org/b", "B", "verified", ev)
+
     def test_verified_source_with_evidence_is_citable_and_lifts_level(self):
         ev = self.tmp / "evidence.txt"
         ev.write_text("passage that was actually read", encoding="utf-8")
-        sources.add(self.layout, "s1", "https://example.org/b", "B", "verified", ev, "toy claim")
+        sources.add(
+            self.layout, "s1", "https://example.org/b", "B", "verified", ev, "toy claim",
+            evidence_kind="primary-text",
+        )
         self.assertEqual(sources.cite(self.layout, "s1")["id"], "s1")
         withsrc = dict(CARD, sources=["s1"])
         self.layout.card_path("toy").write_text(json.dumps(withsrc), encoding="utf-8")

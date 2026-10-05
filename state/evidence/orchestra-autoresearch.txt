@@ -1,0 +1,9 @@
+https://github.com/Orchestra-Research/AI-Research-SKILLs
+https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/0-autoresearch-skill/SKILL.md  (both succeeded)
+NOTE: WebFetch returns a small-model summary, not raw text.
+
+[README summary]
+Collection of 98 skills in 23 categories for AI agents across research lifecycle; MIT; installer npx @orchestra-research/ai-research-skills. Autoresearch skill at 0-autoresearch-skill/, central orchestration layer, two-loop architecture (inner optimization + outer synthesis).
+
+[SKILL.md summary]
+Inner loop: constrained experiments with measurable outcomes. Outer loop: periodic review, choose DEEPEN / BROADEN / PIVOT / CONCLUDE. Mandatory continuity setup via Claude Code /loop (20-minute intervals) or OpenClaw cron. Discipline: lock experiment protocols in git before execution (temporal proof of pre-registration); distinguish confirmatory (matching protocol) from exploratory results; negative results are progress; sanity-check convergence and baselines before trusting metrics; return to literature when surprised. Never idle. Structure: findings.md, research-state.yaml, research-log.md, literature/, experiments/, data/, to_human/. Bootstrap: literature search (Exa MCP, Semantic Scholar, arXiv), gaps, hypotheses with predictions, define metrics before experiments. Finalize: ml-paper-writing skill. Constraints: never fabricate references; verify citations via ml-paper-writing workflow; pre-register in git; update state files after significant actions; commit messages like research(protocol): {hypothesis}.

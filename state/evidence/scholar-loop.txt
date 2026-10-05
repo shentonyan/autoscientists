@@ -1,0 +1,8 @@
+https://github.com/renee-jia/scholar-loop
+https://raw.githubusercontent.com/renee-jia/scholar-loop/main/README.md
+NOTE: text below is the WebFetch tool's model-generated summary, not raw page text.
+
+Agents: Director, Lit Scout, Reasoner, Debate Panel, Funnel, Runner, Reflector, Advisor, Writer, Reviewer; validated JSON-schema outputs. Population funnel: propose many ideas, cheap parallel smoke runs, full GPU budget only to survivors. Governor: stops on budget (max_cost), round cap (max_rounds), convergence (dry_patience); "loop-until-dry" in Orchestrator. Predict-then-verify: agents make falsifiable predictions scored against frozen ground-truth metrics to learn which agents to trust.
+Anti-reward-hacking: frozen metric ("train.py can't fake the metric or see the val set"; no LLM scoring in the optimization loop); edit allowlist; VerifiedRegistry number-grounding (numbers must trace to measurements); bundled cheater engine demonstrating detection; 108 unit tests, deterministic MockLLM runs w/o GPU/API. Ledgers: JSONL audit traces of agent decisions and metric measurements. Skill library: relevance-ranked, time-decaying lessons.
+Live runs (Claude Opus): digits 5.0% -> 3.82% (~$0.45); diabetes 56.5 -> 55.24 (~$0.77).
+Limits: residual boundaries require container sandboxing; two domains (tabular/vision); research-phase. Module paths not disclosed in fetched content. Files: examples/governed_campaign.py, examples/quickstart.py, examples/sample_run, sample_run_diabetes. MIT.

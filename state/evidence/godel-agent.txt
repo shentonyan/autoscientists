@@ -1,0 +1,5 @@
+https://github.com/Arvid-pku/Godel_Agent (located via WebSearch; also listed: https://github.com/PKU-ONELab/Godel_Agent, not fetched)
+(WebFetch summary text relied on; summarizer output)
+Self-referential framework for recursive self-improvement; agent modifies itself via monkey patching at runtime.
+Evaluation via task-specific reward functions taking agent policy, returning feedback (scores, suggestions, scenario descriptions).
+Generated code stored in results/ and logic.py; tasks adapted from ADAS. No sandbox description and no safety warnings found in README by summarizer; only config noted is OpenAI API key.

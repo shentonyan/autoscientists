@@ -1,0 +1,7 @@
+https://github.com/HKUDS/AI-Researcher
+NOTE: text below is the WebFetch tool's model-generated summary, not raw page text.
+
+Stage 1: Resource Collector (papers, code repos, datasets), Resource Filter (citation count, relevance), Idea Generator. Stage 2: design, implementation, validation, refinement phases. Stage 3: Writer Agent produces paper.
+Benchmark suite: expert-written papers as ground truth; four domains (CV, NLP, data mining, IR); hierarchical metrics: novelty, experimental comprehensiveness, theoretical foundation, result analysis, writing quality.
+Key files: research_agent/run_infer_level_1.sh, run_infer_level_2.sh, paper_agent/run_infer.sh, ./benchmark, web_ai_researcher.py. Paper: arxiv 2505.18705. Production: novix.science/chat.
+Safety: needs API keys and Docker containerization for research execution. No explicit failure-mode/reward-hacking discussion in fetched summary.

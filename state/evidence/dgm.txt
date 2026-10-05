@@ -1,0 +1,9 @@
+https://github.com/jennyzzt/dgm
+(WebFetch summary text relied on; summarizer output, not raw README)
+DGM: iteratively modifies its own code and empirically validates each change using coding benchmarks.
+Self-modified part: agent code; foundation model generates changes to own implementation files then tests.
+Benchmarks: SWE-bench, Polyglot. Accept/reject by benchmark performance.
+Archive: logs by stage (initial/, initial_polyglot/), experiment logs in linked Google Drive.
+Sandbox: Docker must be configured; details not elaborated.
+Safety: README warns it executes untrusted model-generated code, may behave destructively; user accepts risks.
+Reward hacking/oversight: no discussion found on page.

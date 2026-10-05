@@ -1,0 +1,9 @@
+https://github.com/karpathy/autoresearch
+(also https://raw.githubusercontent.com/karpathy/autoresearch/master/program.md)
+NOTE: WebFetch returns a small-model summary, not raw text. Below is that returned summary.
+
+[README summary]
+Autonomous AI agents run ML research experiments overnight. Agent modifies training code, runs 5-minute training runs, evaluates, iterates. Files: prepare.py (constants, data prep, runtime utilities; not modified by agents), train.py (the single file agents edit: GPT model, Muon+AdamW, training loop), program.md (baseline agent instructions; edited by humans). Also .gitignore, .python-version, README.md, analysis.ipynb, pyproject.toml, progress.png, uv.lock. Needs single NVIDIA GPU (tested H100), Python 3.10+, uv. Fixed 5-minute training budget; metric val_bpb (lower better), independent of vocab size. Community forks for MacOS/Windows/AMD.
+
+[program.md summary]
+Only train.py editable (architecture, optimizer, hyperparameters, training loop, batch size, model size). prepare.py read-only; no new dependencies; cannot alter evaluation function evaluate_bpb. Fixed 5-min wall clock; single GPU; VRAM soft constraint; simplicity preferred. Log to results.tsv, 5 columns: 7-char commit hash, val_bpb (0.000000 for crashes), peak memory GB, status keep/discard/crash, short description. Keep if val_bpb improves; equal/worse -> git reset to prior state; crash -> log, fix only if trivial. Proceed autonomously without human confirmation, iterate until manually stopped.

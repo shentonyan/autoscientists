@@ -1,0 +1,6 @@
+https://github.com/ResearAI/DeepScientist/blob/main/README.md (located via WebSearch; repo URL https://github.com/ResearAI/DeepScientist)
+NOTE: text below is the WebFetch tool's model-generated summary, not raw page text.
+
+Local-first autonomous research studio; state stays on user machine; managed local daemon at 127.0.0.1:20999. One git repo per quest; routes expressed as branches/worktrees. Records experiment hypotheses/results/conclusions, keeps failed paths, reproduction documentation, research maps; Findings Memory accumulates across rounds. Backends: Codex, Claude Code, Kimi Code, OpenCode. Human can pause, edit plans/code, resume. Baseline validation workflows and structured experiment comparison.
+Warnings: native Windows experimental (WSL2 recommended); run in isolated env, non-root user; failure modes listed: runner auth, npm path, potential hallucination in autonomous proposals.
+Docs: docs/en/00_QUICK_START.md, 02_START_RESEARCH_GUIDE.md, 13_CORE_ARCHITECTURE_GUIDE.md. Cited as ICLR 2026 (openreview cZFgsLq8Gs).

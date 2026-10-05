@@ -52,6 +52,19 @@ def validate(card: dict) -> list[str]:
     if not (isinstance(hyps, list) and hyps):
         problems.append("hypotheses must be a non-empty list")
         return problems
+    sup = card.get("supersedes")
+    if sup is not None and not (isinstance(sup, str) and ID_RE.match(sup)):
+        problems.append("supersedes must be a card id")
+    deps = card.get("depends_on", [])
+    if not isinstance(deps, list):
+        problems.append("depends_on must be a list")
+    else:
+        for i, d in enumerate(deps):
+            where = f"depends_on[{i}]"
+            if not (isinstance(d, dict) and set(d) == {"card", "hypothesis", "verdict"}):
+                problems.append(f"{where} must have exactly: card, hypothesis, verdict")
+            elif d["verdict"] not in VERDICTS:
+                problems.append(f"{where}.verdict must be one of {VERDICTS}")
     seen = set()
     for i, h in enumerate(hyps):
         where = f"hypotheses[{i}]"

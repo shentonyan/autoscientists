@@ -1,0 +1,9 @@
+https://github.com/WillStephenn/research-loop
+https://raw.githubusercontent.com/WillStephenn/research-loop/master/docs/design.md  (success; main-branch raw and blob URLs returned 404)
+NOTE: WebFetch returns a small-model summary, not raw text.
+
+[README summary]
+Autonomous AI research agent framework extracted from a private four-week ML research system: 6 skills (Markdown in agent/) and 5 shell scripts (bin/), to run inside an existing coding-agent harness. Takes research problems with quantifiable targets in a North Star file; builds a hypothesis graph (nodes = testable claims, edges = dependencies); agent works through graph, raises targets when met. Dirs: agent/, bin/, config/, demo/, docs/, examples/, tests/ (388 checks). Files: examples/NORTH_STAR.md, agent/README.md, docs/design.md, config/loop.conf. bin: hypothesis.sh (enforces falsifier), north_star.sh (prevents lowering targets), journal.sh (append-only), schedule_next.sh (wake 15 min-16 h), tick.sh (heartbeat via cron/launchd). MIT.
+
+[docs/design.md summary]
+Problem: confirmation bias at scale; agent proposes, tests, interprets favorably, records wins. Fix: mechanical checks. hypothesis.sh: versioned JSON; conjectures need falsifiers and cap at three attempts; obligations need completion criteria; states open/testing/confirmed/falsified/blocked/superseded, falsified terminal; deliberately no predicted-impact field. north_star.sh ratchet: raise only, never lower, only when current bar met at two consecutive registered evaluations, only to a value evidence cleared twice. journal.sh: append-only ndjson. config/loop.conf: closed vocabularies (families, metrics, ratchet axes, cost tiers, attempt caps) to stop vocabulary drift/success redefinition; goal file human-owned.

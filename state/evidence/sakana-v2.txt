@@ -1,0 +1,11 @@
+https://github.com/SakanaAI/AI-Scientist-v2
+(Also fetched: https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/main/ai_scientist/perform_writeup.py)
+NOTE: text below is the WebFetch tool's model-generated summary of the page, not raw page text.
+
+README summary: autonomous system: ideation (markdown topic, LLM brainstorm, novelty check via Semantic Scholar), experimentation via best-first tree search (BFTS; params: parallel workers, max nodes, debug probability, max debug depth, multiple tree roots), writeup and review. Built on AIDE tree search. Experiment Manager Agent guides search. Semantic Scholar optional for novelty + citations.
+Safety: "This codebase will execute Large Language Model (LLM)-written code. ... potential use of dangerous packages, uncontrolled web access, ... spawning unintended processes. Ensure that you run this within a controlled sandbox environment (e.g., a Docker container)."
+Limitations: success depends on model and idea; v2 lower success rate than v1; cost ~$15-20 per run with Claude 3.5 Sonnet; CUDA OOM; S2 API issues may skip novelty check.
+License requires disclosing AI use in resulting manuscripts.
+Key files: launch_scientist_bfts.py, perform_ideation_temp_free.py, bfts_config.yaml, unified_tree_viz.html.
+
+perform_writeup.py summary: citations collected in two LLM stages via Semantic Scholar ("only add citations that you have found using the API"); dedupe by title against references.bib. Prompt: "Do not hallucinate new citations or any results not in the logs." Results sourced from baseline_summary.json, research_summary.json, ablation_summary.json. Figure audit: unused_figs = all_figs - used_figs; invalid_figs = used_figs - all_figs, flagged in reflection prompt. pdflatex/bibtex compile loops, chktex output fed back to LLM, detect_pages_before_impact() page-limit check, up to n_writeup_reflections (default 3) reflection loops.

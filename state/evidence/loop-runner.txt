@@ -1,0 +1,9 @@
+https://github.com/raiyanyahya/loop
+https://raw.githubusercontent.com/raiyanyahya/loop/master/README.md  (succeeded; main-branch raw and blob URLs returned 404)
+NOTE: WebFetch returns a small-model summary, not raw text.
+
+[repo page summary]
+Generic loop runner for AI coding agents (Node, MIT, claimed zero dependencies). Five parts: goal, worker, verifier (until: conditions), memory (letter between iterations + notes file), brakes (max iterations, max_time, max_cost, timeout, stall, repeat). Loopfile = YAML frontmatter + markdown; fields incl. protect (globs agent cannot modify), critic (independent reviewer), git (commit kept iterations, worktree). Templates: finish, optimize, maintain, research, full, tdd, fix-ci, checklist, relay, ralph. Agent protocol tags: loop:done, stuck, ask, handoff, sleep, note, approve, reject. On disk: .loop/runs/<timestamp>/journal.jsonl and per-iteration prompt.md, output.txt, critic-prompt.md, critic-output.txt. Page lists 3 stars, 78 tests.
+
+[README summary: verification]
+Agents satisfy a visible grader rather than the goal (weakened tests to lookup tables). Mechanisms: every until command is run and its result recorded; protected files auto-restored and iteration rejected if edited; independent critic session reviews before acceptance (self-grading lenient, same model rates itself about twice as favourably); revert-on-failure to last kept commit; optimize loops roll back non-improving iterations. Doc states none of this is a guarantee; it raises cost of cheating; humans should watch suspicious metric jumps and hold out checks the agent cannot observe.

@@ -1,7 +1,7 @@
 # autoscientists
 
 A small framework for running research questions as pre-registered, checkable
-computations. Status: v0.1, one calibration card, no research results yet.
+computations. Status: v0.2, one calibration card, no research results yet.
 
 The idea is narrow. Before an experiment runs, its hypotheses and the outcomes that
 would refute them are written down and hashed. After it runs, a separate step
@@ -22,6 +22,12 @@ python -m autosci verify my-card     # re-execute and check independently
 python -m autosci report my-card
 python -m autosci cycle my-card      # validate, lock, run, report, verify
 python -m autosci status
+python -m autosci govern             # should the loop stop and ask a human?
+python -m autosci calibration        # how often predicted verdicts matched
+python -m autosci lint my-card       # notes: numbers and sources must be grounded
+python -m autosci guard --base origin/main   # changes to the frozen core
+python -m autosci selftest           # corrupt a copy on purpose; the verifier must notice
+python -m autosci evolve status      # variant archive for changes to the framework
 python -m unittest discover -s tests
 ```
 
@@ -37,8 +43,10 @@ and `crosscheck`. See `experiments/auction_calibration.py`.
 | `experiments/` | experiment modules |
 | `runs/` | one JSON record per run |
 | `reports/` | generated reports, plus optional `*.notes.md` |
-| `state/` | hash-chained ledger, source registry, queue, journal |
+| `state/` | hash-chained ledger and variant archive, source registry and its evidence, governor limits, frozen-core manifest, queue, journal |
 | `loop/AGENT.md` | procedure for an AI agent running the loop |
+| `docs/SURVEY.md` | what related projects do, with sources and what could not be confirmed |
+| `docs/EVOLUTION.md` | how the framework may change itself, and what is frozen |
 | `tests/` | tests, including deliberate tampering |
 
 ## Calibration
@@ -47,8 +55,14 @@ and `crosscheck`. See `experiments/auction_calibration.py`.
 auction results known in closed form, plus one hypothesis known to be false. Its
 report is `reports/auction-calibration.md`.
 
+## Changing the framework
+
+The framework's own checks are frozen: changes to them need the maintainer. Other
+parts can be proposed as recorded variants and are measured against a fixed
+benchmark before review. The rules are in `docs/EVOLUTION.md`.
+
 ## Limits
 
-Checks here catch edits, missing cross-checks, uncited sources and irreproducible
-results. They do not establish that a question is the right one, that a model fits
-reality, or that a source is correct. See section 7 of `PROTOCOL.md`.
+Checks here catch edits, missing cross-checks, uncited sources, unsupported numbers
+in notes and irreproducible results. They do not establish that a question is the right one, that a model fits
+reality, or that a source is correct. See section 9 of `PROTOCOL.md`.
