@@ -1,0 +1,33 @@
+{
+  "id": "auction-calibration",
+  "title": "Calibration: dominant-strategy truthfulness in second-price versus first-price auctions",
+  "question": "Does the research loop reproduce two known results about sealed-bid auctions, and does it refute a hypothesis that is known to be false? Setting: two bidders, values and opponent draws uniform on [0, 1]; second-price opponent bids x, first-price opponent bids x/2 (the equilibrium strategy).",
+  "experiment": "auction_calibration",
+  "params": {
+    "n_samples": 10000,
+    "bid_steps": 20,
+    "value_indices": [4, 8, 12, 16]
+  },
+  "seeds": [101, 102, 103, 104, 105],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "In a second-price auction, bidding one's value is weakly dominant: no deviation on the bid grid ever beats truthful bidding on any sampled opponent bid.",
+      "falsifier": "At least one sample in which some grid bid earns more than the truthful bid by more than 1e-12.",
+      "predicted_verdict": "supported"
+    },
+    {
+      "id": "H2",
+      "statement": "In a first-price auction against an opponent bidding x/2, bidding v/2 earns strictly more expected utility than bidding v, for every tested value v.",
+      "falsifier": "For some tested v the 95% lower bound of the gain (bid v/2 minus bid v) is not above zero.",
+      "predicted_verdict": "supported"
+    },
+    {
+      "id": "H3",
+      "statement": "Negative control. In a first-price auction against an opponent bidding x/2, truthful bidding earns positive expected utility.",
+      "falsifier": "The 95% upper bound of truthful expected utility is at or below zero for every tested value. It is known to be exactly zero, so this hypothesis is expected to be refuted.",
+      "predicted_verdict": "refuted"
+    }
+  ],
+  "sources": []
+}
