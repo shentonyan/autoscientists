@@ -1,0 +1,15 @@
+name: Verifier blind spot
+description: A way to corrupt or mislead a result that verify, lint or guard do not catch
+labels: [selftest]
+body:
+  - type: textarea
+    id: corruption
+    attributes:
+      label: What would you change, and where?
+      description: Be concrete enough to turn into a deliberate corruption for `selftest`.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Which check should have noticed?

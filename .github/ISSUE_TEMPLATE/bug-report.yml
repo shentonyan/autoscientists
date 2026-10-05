@@ -1,0 +1,21 @@
+name: Bug report
+description: Something in the framework does not behave as documented
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Commands to reproduce
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
