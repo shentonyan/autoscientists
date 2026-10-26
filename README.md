@@ -14,6 +14,10 @@ The auction card verifies at L2; the crypto baseline loses after costs. This is
 not a reproduction of AQuA's undisclosed factors or equity model. The optional
 quantitative scripts require NumPy; the framework itself uses only the standard library.
 
+The [public futures follow-up](docs/AQUA_FUTURES.md) tests open-interest and
+taker-flow events on a separately reserved quarter. It verifies at L3, but its
+performance hypotheses are inconclusive and the full filter loses after costs.
+
 ![The research loop](docs/img/workflow.svg)
 
 Before an experiment runs, its hypotheses and the outcomes that would refute them are

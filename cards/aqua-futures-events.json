@@ -1,0 +1,52 @@
+{
+  "id": "aqua-futures-events",
+  "title": "Public BTC futures: open-interest crash, rebound and weak taker-flow event test",
+  "question": "Does an independently specified short filter following a past OI decline, negative prior return and unconfirmed positive rebound show positive test PNL or incremental PNL over a validation-chosen baseline? Training July-August 2024, selection September, final test October-December, all fixed before performance inspection. One unit initial notional per separate 30-minute short; arithmetic, not compounded, PNL. The independent check shares input samples and selected thresholds but separately reconstructs masks and fee-adjusted PNL. The checksum source concerns archive bytes only.",
+  "experiment": "aqua_futures_events",
+  "params": {
+    "samples": "research/futures_data/samples.csv",
+    "samples_sha256": "d8d0a73e5a699739ee0c5ac8e4204d2b043d78a8b7b234e8a32875265678497f",
+    "builder": "research/futures_data.py",
+    "builder_sha256": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed",
+    "oi_quantiles": [
+      0.8,
+      0.9,
+      0.95
+    ],
+    "flow_cuts": [
+      0.45,
+      0.5
+    ],
+    "cost_bps": 1,
+    "min_validation_trades": 5,
+    "min_test_trades": 20,
+    "bootstrap_repetitions": 2000,
+    "block_days": 7
+  },
+  "seeds": [
+    20261027
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The validation-selected full OI/rebound/flow filter has positive mean daily arithmetic test PNL after one-basis-point cost per leg and realized fixed-notional funding accrual.",
+      "falsifier": "The circular seven-day-block bootstrap 95% interval for mean test daily PNL lies wholly below zero. An interval including zero, fewer than twenty test trades, or no eligible validation candidate is inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H2",
+      "statement": "The full filter has positive incremental mean daily test PNL over the reference chosen solely on validation among cash, price-only, OI-only and flow-only baselines at the same per-trade notional; exposure need not be equal.",
+      "falsifier": "The paired seven-day-block bootstrap 95% interval for incremental daily PNL lies wholly below zero. Zero-containing intervals or the H1 sample-size gates are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H3",
+      "statement": "Negative economic control: increasing the per-leg trading fee from one to five basis points, with exactly the same trade decisions, increases total arithmetic test PNL.",
+      "falsifier": "At least one trade is present and the higher fee lowers total PNL by its exact fee difference; no trades means inconclusive.",
+      "predicted_verdict": "refuted"
+    }
+  ],
+  "sources": [
+    "binance-public-archives"
+  ]
+}
