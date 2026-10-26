@@ -1,0 +1,175 @@
+{
+  "factors": {
+    "memory": [
+      {
+        "annualized_sharpe": -0.6384082773271044,
+        "cost_bps_per_one_way_notional": 0,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.0870206725323126,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.021026039641339533,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -9.807556917979054,
+        "cost_bps_per_one_way_notional": 1,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.2551003527497826,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.2517339728176161,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -18.91009029887374,
+        "cost_bps_per_one_way_notional": 2,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.4292365635470996,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.4280936622460878,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -45.216863445898674,
+        "cost_bps_per_one_way_notional": 5,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.7449051049404036,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.7447090223363995,
+        "periods": 2927
+      }
+    ],
+    "no_memory": [
+      {
+        "annualized_sharpe": -0.6384082773271044,
+        "cost_bps_per_one_way_notional": 0,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.0870206725323126,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.021026039641339533,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -9.807556917979054,
+        "cost_bps_per_one_way_notional": 1,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.2551003527497826,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.2517339728176161,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -18.91009029887374,
+        "cost_bps_per_one_way_notional": 2,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.4292365635470996,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.4280936622460878,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -45.216863445898674,
+        "cost_bps_per_one_way_notional": 5,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.7449051049404036,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.7447090223363995,
+        "periods": 2927
+      }
+    ],
+    "random": [
+      {
+        "annualized_sharpe": -0.6384082773271044,
+        "cost_bps_per_one_way_notional": 0,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.0870206725323126,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.021026039641339533,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -9.807556917979054,
+        "cost_bps_per_one_way_notional": 1,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.2551003527497826,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.2517339728176161,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -18.91009029887374,
+        "cost_bps_per_one_way_notional": 2,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.4292365635470996,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.4280936622460878,
+        "periods": 2927
+      },
+      {
+        "annualized_sharpe": -45.216863445898674,
+        "cost_bps_per_one_way_notional": 5,
+        "ic": 0.06678332064758913,
+        "max_drawdown": -0.7449051049404036,
+        "mean_turnover": 0.9177512444268442,
+        "net_return": -0.7447090223363995,
+        "periods": 2927
+      }
+    ]
+  },
+  "no_memory_equals_random": true,
+  "ridge": [
+    {
+      "annualized_sharpe": 0.6623946422708196,
+      "cost_bps_per_one_way_notional": 0,
+      "ic": 0.0029601417048199905,
+      "max_drawdown": -0.06902719249314049,
+      "mean_turnover": 1.1448493298411953,
+      "net_return": 0.017452336539885982,
+      "periods": 2927
+    },
+    {
+      "annualized_sharpe": -10.400786307616237,
+      "cost_bps_per_one_way_notional": 1,
+      "ic": 0.0029601417048199905,
+      "max_drawdown": -0.27728162997750794,
+      "mean_turnover": 1.1448493298411953,
+      "net_return": -0.2723400430530125,
+      "periods": 2927
+    },
+    {
+      "annualized_sharpe": -21.379315766709087,
+      "cost_bps_per_one_way_notional": 2,
+      "ic": 0.0029601417048199905,
+      "max_drawdown": -0.4822442327444254,
+      "mean_turnover": 1.1448493298411953,
+      "net_return": -0.4796201651739651,
+      "periods": 2927
+    },
+    {
+      "annualized_sharpe": -53.074284906705714,
+      "cost_bps_per_one_way_notional": 5,
+      "ic": 0.0029601417048199905,
+      "max_drawdown": -0.8099866982117333,
+      "mean_turnover": 1.1448493298411953,
+      "net_return": -0.8097337285060442,
+      "periods": 2927
+    }
+  ],
+  "rows": {
+    "test": {
+      "BNBUSDT": 2927,
+      "BTCUSDT": 2927,
+      "ETHUSDT": 2927
+    },
+    "train": {
+      "BNBUSDT": 4351,
+      "BTCUSDT": 4351,
+      "ETHUSDT": 4351
+    },
+    "validation": {
+      "BNBUSDT": 1439,
+      "BTCUSDT": 1439,
+      "ETHUSDT": 1439
+    }
+  },
+  "selection_sha256": "d9772920e74b542b8c08f4fcc45d198c86512ccf08b17ff6917894e27df67566"
+}

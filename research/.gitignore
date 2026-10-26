@@ -1,0 +1,3 @@
+data/*.zip
+data/*.CHECKSUM
+results/*/execution-receipt.json

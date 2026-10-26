@@ -1,0 +1,2 @@
+# Optional pilot only; the autosci core retains its standard-library-only contract.
+numpy==2.5.3

@@ -1,7 +1,6 @@
 {
   "files": {
     "PROTOCOL.md": "7b9884cee9502d83c0c90d6a39345277e9fdd298f5bbf68e8faa51028502304a",
-    "autosci/__init__.py": "34c3a59110de530c8a335f2ce9ea80f1c4a95f054233d682515d9d5e9cb1a366",
     "autosci/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
     "autosci/calibration.py": "3637bfd395c9a5be25a340d433ea99c9ccae1b21f8aeaea2d3de4f456c28d14d",
     "autosci/canon.py": "6493a42ef87b4bb3238a131af7714f25bf1366d2c064c46e3df6ce70c3123a22",
@@ -23,7 +22,10 @@
     "experiments/auction_calibration.py": "4d5889ad0274e3310f56317e0735aeabf7de8ca7a3e9316f42f2f3c0bfe0826e",
     "state/governor.json": "5bc7572bf7add17318284dd871b3671ca3c0e48c3181c43b2b0f64d3504ebf42",
     "tests/test_evolution.py": "18c7ddfad9cda3bb3026600423d882ce8253b48ae9a487c14d2c88c5d5351c55",
-    "tests/test_framework.py": "bd157476709720a06030a0e1eeb412f4b405679fbd6fe4f5b1f728bd78ea0901"
+    "tests/test_framework.py": "bd157476709720a06030a0e1eeb412f4b405679fbd6fe4f5b1f728bd78ea0901",
+    "autosci/__init__.py": "d7706924674e0a134057f242486bd9edfcd1c86188ba2b2d04ac7a592ee8d24c",
+    "tests/test_repo_structure.py": "d4b2b7fe221a593ad0ff61d471293ac86aad6f3f62f7a295a0bbfe71889c9395",
+    "tests/test_skills.py": "07eb7b1387c71461cd62b07c55a9f84ddd23c6343c723f5dd630ae51eabda980"
   },
   "patterns": [
     "autosci/*.py",
