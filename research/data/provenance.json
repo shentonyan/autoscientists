@@ -1,0 +1,92 @@
+[
+  {
+    "file": "BTCUSDT-5m-2024-01.zip",
+    "sha256": "a375f811f672ad70de97af533f6e70181647a9e978838b451ac17d5c17313ad8",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-01.zip"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-02.zip",
+    "sha256": "4bbed105653be96229f6678b3ce3df7366a6ced5aea32285da2bf62ac5f890ed",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-02.zip"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-03.zip",
+    "sha256": "fd3670210b38640ee9562b7761879fae8cfed3beec7d7313b868cf618ca4c72a",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-03.zip"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-04.zip",
+    "sha256": "b41c6d2703ee9e4c8167de082dcd363fac39ed176ebe9eacf7f0109e284a5948",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-04.zip"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-05.zip",
+    "sha256": "3a9c810274f38b18abda912c3446df51cb160c4c0e376655fb7defb1cacf5de2",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-05.zip"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-06.zip",
+    "sha256": "627dd48125d89759e498d2db2e523166787bda4dd9a64ca56abf9fba235ba71e",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-06.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-01.zip",
+    "sha256": "4d7c7993753a610111eaf642595593bc494018c1a6d9c56fd2e4637947b0c706",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-01.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-02.zip",
+    "sha256": "1d8853dad965a879dfbe1337a34b8dd0f5720ea63d08c111baa6fd80b6d8e3e0",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-02.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-03.zip",
+    "sha256": "60effd672bfd20e90a660e669ab910a73e1efe15e8da3f03025f886c1311a397",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-03.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-04.zip",
+    "sha256": "3a1dbd4846d83c1d2c41ad79959aaba7f3ff2eb955d554ec0160b427ba7c29f0",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-04.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-05.zip",
+    "sha256": "96c249da6af9da772b8f46126ee15fa2335e7f8b384b6f0b92ee5e9eaa4fb187",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-05.zip"
+  },
+  {
+    "file": "ETHUSDT-5m-2024-06.zip",
+    "sha256": "15bfae49e9b625e93e3ca8279990b0328e813ddf2fe2d1bc0fb5b052a9c3e547",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-06.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-01.zip",
+    "sha256": "4975f4d1a3fc7b7a0e628b9b824b4e3a727a67aa32381daf1eb4f04f31593ecf",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-01.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-02.zip",
+    "sha256": "c1033bd0ace2839a2231a81f4df24a96d90a2e06f68a4b2dfa082be945fe6142",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-02.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-03.zip",
+    "sha256": "39ef4c1f0cbfa2a541fb61092fe6308ccb5b8ea32ee614ee53e5062fd17494e7",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-03.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-04.zip",
+    "sha256": "2840b4e504bd1a4c4f8fe3b2872bcfc0d84615c0d89ca0bee8047e6aebd15700",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-04.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-05.zip",
+    "sha256": "1dbab7a7a3e6775c8fc6f51777cd7a110d2c4c09b2250326cc7fb92983454511",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-05.zip"
+  },
+  {
+    "file": "BNBUSDT-5m-2024-06.zip",
+    "sha256": "cd1c47bf590f6072c5addd15325db938b7c18363b40e9a49d5b5138a26c5d554",
+    "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-06.zip"
+  }
+]

@@ -3,10 +3,16 @@
 [![CI](https://github.com/shentonyan/autoscientists/actions/workflows/ci.yml/badge.svg)](https://github.com/shentonyan/autoscientists/actions/workflows/ci.yml)
 ![python](https://img.shields.io/badge/python-3.10%E2%80%933.13-blue)
 ![dependencies](https://img.shields.io/badge/dependencies-none-lightgrey)
-![status](https://img.shields.io/badge/status-v0.3%2C%20no%20research%20results%20yet-orange)
+![status](https://img.shields.io/badge/status-v0.3%2C%20restricted%20search%20pilot-orange)
 
 A small framework for running research questions as pre-registered, checkable
 computations, designed to be driven by an AI agent and checked without trusting it.
+
+An [AQuA-inspired pilot](docs/AQUA_PILOT.md) adds restricted candidate search,
+validation-only memory and an independently audited public crypto backtest.
+The auction card verifies at L2; the crypto baseline loses after costs. This is
+not a reproduction of AQuA's undisclosed factors or equity model. The optional
+quantitative scripts require NumPy; the framework itself uses only the standard library.
 
 ![The research loop](docs/img/workflow.svg)
 

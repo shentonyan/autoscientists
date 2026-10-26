@@ -1,0 +1,635 @@
+{
+  "cost_convention": "1bp one-way per traded notional; 2bp round trip on unchanged unit exposure",
+  "data": [
+    {
+      "file": "BTCUSDT-5m-2024-01.zip",
+      "sha256": "a375f811f672ad70de97af533f6e70181647a9e978838b451ac17d5c17313ad8",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-01.zip"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-02.zip",
+      "sha256": "4bbed105653be96229f6678b3ce3df7366a6ced5aea32285da2bf62ac5f890ed",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-02.zip"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-03.zip",
+      "sha256": "fd3670210b38640ee9562b7761879fae8cfed3beec7d7313b868cf618ca4c72a",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-03.zip"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-04.zip",
+      "sha256": "b41c6d2703ee9e4c8167de082dcd363fac39ed176ebe9eacf7f0109e284a5948",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-04.zip"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-05.zip",
+      "sha256": "3a9c810274f38b18abda912c3446df51cb160c4c0e376655fb7defb1cacf5de2",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-05.zip"
+    },
+    {
+      "file": "BTCUSDT-5m-2024-06.zip",
+      "sha256": "627dd48125d89759e498d2db2e523166787bda4dd9a64ca56abf9fba235ba71e",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-06.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-01.zip",
+      "sha256": "4d7c7993753a610111eaf642595593bc494018c1a6d9c56fd2e4637947b0c706",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-01.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-02.zip",
+      "sha256": "1d8853dad965a879dfbe1337a34b8dd0f5720ea63d08c111baa6fd80b6d8e3e0",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-02.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-03.zip",
+      "sha256": "60effd672bfd20e90a660e669ab910a73e1efe15e8da3f03025f886c1311a397",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-03.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-04.zip",
+      "sha256": "3a1dbd4846d83c1d2c41ad79959aaba7f3ff2eb955d554ec0160b427ba7c29f0",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-04.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-05.zip",
+      "sha256": "96c249da6af9da772b8f46126ee15fa2335e7f8b384b6f0b92ee5e9eaa4fb187",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-05.zip"
+    },
+    {
+      "file": "ETHUSDT-5m-2024-06.zip",
+      "sha256": "15bfae49e9b625e93e3ca8279990b0328e813ddf2fe2d1bc0fb5b052a9c3e547",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/ETHUSDT/5m/ETHUSDT-5m-2024-06.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-01.zip",
+      "sha256": "4975f4d1a3fc7b7a0e628b9b824b4e3a727a67aa32381daf1eb4f04f31593ecf",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-01.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-02.zip",
+      "sha256": "c1033bd0ace2839a2231a81f4df24a96d90a2e06f68a4b2dfa082be945fe6142",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-02.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-03.zip",
+      "sha256": "39ef4c1f0cbfa2a541fb61092fe6308ccb5b8ea32ee614ee53e5062fd17494e7",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-03.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-04.zip",
+      "sha256": "2840b4e504bd1a4c4f8fe3b2872bcfc0d84615c0d89ca0bee8047e6aebd15700",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-04.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-05.zip",
+      "sha256": "1dbab7a7a3e6775c8fc6f51777cd7a110d2c4c09b2250326cc7fb92983454511",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-05.zip"
+    },
+    {
+      "file": "BNBUSDT-5m-2024-06.zip",
+      "sha256": "cd1c47bf590f6072c5addd15325db938b7c18363b40e9a49d5b5138a26c5d554",
+      "url": "https://data.binance.vision/data/spot/monthly/klines/BNBUSDT/5m/BNBUSDT-5m-2024-06.zip"
+    }
+  ],
+  "factor_search": {
+    "memory": {
+      "budget": 12,
+      "history": [
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": -1,
+            "window": 6
+          },
+          "validation_ic": 0.008534299043356697
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 24
+          },
+          "validation_ic": 0.03583468664689436
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": -0.0030000200983035775
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 48
+          },
+          "validation_ic": 0.028933556857701947
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 24
+          },
+          "validation_ic": -0.0310673360018322
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 6
+          },
+          "validation_ic": -0.0018311296204786443
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": -1,
+            "window": 48
+          },
+          "validation_ic": -0.020291875089778276
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": 0.008665641608147784
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": 1,
+            "window": 12
+          },
+          "validation_ic": -0.04885539335662029
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 3
+          },
+          "validation_ic": -0.00898795193205094
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": 1,
+            "window": 12
+          },
+          "validation_ic": 0.0007825523803490535
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 96
+          },
+          "validation_ic": 0.032544436354790464
+        }
+      ],
+      "memory_head": "47e1d35907760dd55e95d59668846e9c1af9dbe5adba037f30a6a27bb8d66c77",
+      "prior_evaluations": 12,
+      "selected": {
+        "kind": "risk_scaled",
+        "sign": -1,
+        "window": 12
+      }
+    },
+    "no_memory": {
+      "budget": 12,
+      "history": [
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 48
+          },
+          "validation_ic": -0.02478092836868678
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": -1,
+            "window": 12
+          },
+          "validation_ic": -0.0007825523803490535
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": 0.00898795193205094
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 96
+          },
+          "validation_ic": 0.028359498968514734
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": 1,
+            "window": 96
+          },
+          "validation_ic": -0.032544436354790464
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": 1,
+            "window": 48
+          },
+          "validation_ic": 0.020291875089778276
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 6
+          },
+          "validation_ic": -0.0024577284773414296
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 12
+          },
+          "validation_ic": 0.05301482136674814
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 3
+          },
+          "validation_ic": -0.00898795193205094
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": 0.008665641608147784
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": 1,
+            "window": 3
+          },
+          "validation_ic": -0.008665641608147784
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 48
+          },
+          "validation_ic": 0.02478092836868678
+        }
+      ],
+      "selected": {
+        "kind": "risk_scaled",
+        "sign": -1,
+        "window": 12
+      }
+    },
+    "random": {
+      "budget": 12,
+      "history": [
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 48
+          },
+          "validation_ic": -0.02478092836868678
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": -1,
+            "window": 12
+          },
+          "validation_ic": -0.0007825523803490535
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": 0.00898795193205094
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 96
+          },
+          "validation_ic": 0.028359498968514734
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": 1,
+            "window": 96
+          },
+          "validation_ic": -0.032544436354790464
+        },
+        {
+          "candidate": {
+            "kind": "volume_conditioned",
+            "sign": 1,
+            "window": 48
+          },
+          "validation_ic": 0.020291875089778276
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 6
+          },
+          "validation_ic": -0.0024577284773414296
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 12
+          },
+          "validation_ic": 0.05301482136674814
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": 1,
+            "window": 3
+          },
+          "validation_ic": -0.00898795193205094
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": -1,
+            "window": 3
+          },
+          "validation_ic": 0.008665641608147784
+        },
+        {
+          "candidate": {
+            "kind": "momentum",
+            "sign": 1,
+            "window": 3
+          },
+          "validation_ic": -0.008665641608147784
+        },
+        {
+          "candidate": {
+            "kind": "risk_scaled",
+            "sign": -1,
+            "window": 48
+          },
+          "validation_ic": 0.02478092836868678
+        }
+      ],
+      "selected": {
+        "kind": "risk_scaled",
+        "sign": -1,
+        "window": 12
+      }
+    }
+  },
+  "horizon_bars": 6,
+  "limitations": [
+    "spot data with hypothetical shorts; borrow, funding and slippage omitted",
+    "application-level test separation; not an OS access-control boundary",
+    "single seed and short test period do not establish memory improvement",
+    "no LLM proposal calls or undisclosed AQuA model architecture"
+  ],
+  "months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06"
+  ],
+  "numpy": "2.5.3",
+  "ridge": {
+    "center": [
+      6.33002769763015e-05,
+      0.04005081603631221,
+      2.1391148213909803e-05,
+      0.00012567148869857908,
+      0.08907432303698816,
+      -1.30398912528116e-05,
+      0.00025224809814784294,
+      0.18710805259968458,
+      1.8985627226849352e-05,
+      0.0005074111134130904,
+      0.3948087957134605,
+      0.00017557015192565695,
+      0.001014783735727444,
+      0.8295602831768456,
+      0.00039710034702055265,
+      0.0020068811387246852,
+      1.58765340387754,
+      0.0006563977765984039
+    ],
+    "history": [
+      {
+        "penalty": 0.01,
+        "validation_ic": 0.033604808073664894,
+        "weights": [
+          -4.365150204854294e-05,
+          -0.00019452125388914781,
+          0.00017282150836743187,
+          0.00046713870864858374,
+          -2.3249652492799446e-05,
+          -9.747104088165551e-05,
+          -0.0002734284158469144,
+          6.96829456350787e-05,
+          0.00034982458901499703,
+          -0.00015477146583481644,
+          9.784573207150289e-05,
+          -4.405753874759045e-05,
+          -0.0003222474130171748,
+          0.00022828451079578836,
+          -4.139077146300249e-05,
+          4.03127359278059e-06,
+          6.816552218752344e-05,
+          -0.00016404026973775897
+        ]
+      },
+      {
+        "penalty": 0.1,
+        "validation_ic": 0.03360218167972517,
+        "weights": [
+          -4.363876740431945e-05,
+          -0.00019452822473794713,
+          0.0001728054097741953,
+          0.00046708866901803525,
+          -2.321003867303708e-05,
+          -9.743194556452017e-05,
+          -0.0002733906127602802,
+          6.965183683835629e-05,
+          0.00034978205920748633,
+          -0.00015478268251488216,
+          9.785572469903074e-05,
+          -4.404216539260042e-05,
+          -0.0003222167726539368,
+          0.00022825706287646366,
+          -4.138866080152966e-05,
+          4.015425830782516e-06,
+          6.817821519726825e-05,
+          -0.00016403804688413902
+        ]
+      },
+      {
+        "penalty": 1.0,
+        "validation_ic": 0.03361929437238949,
+        "weights": [
+          -4.3511904572982624e-05,
+          -0.00019459750148727715,
+          0.00017264477470786783,
+          0.00046658943459521117,
+          -2.2814967179004978e-05,
+          -9.704174801105504e-05,
+          -0.0002730136220551173,
+          6.934173648774241e-05,
+          0.0003493574497005784,
+          -0.00015489423590989796,
+          9.795504888845626e-05,
+          -4.388866821306574e-05,
+          -0.0003219110158721709,
+          0.0002279831751784131,
+          -4.1367608493276944e-05,
+          3.857329402447342e-06,
+          6.830480911131197e-05,
+          -0.00016401579870028958
+        ]
+      },
+      {
+        "penalty": 10.0,
+        "validation_ic": 0.03361389371169424,
+        "weights": [
+          -4.229023851673945e-05,
+          -0.00019524838630364047,
+          0.0001710727725662262,
+          0.0004617101620408242,
+          -1.8967976094395767e-05,
+          -9.321394885184501e-05,
+          -0.00026934465021572173,
+          6.633649811816055e-05,
+          0.00034517918126986564,
+          -0.0001559505567795261,
+          9.889017664366244e-05,
+          -4.237716336187746e-05,
+          -0.0003189164575749149,
+          0.00022530190573162093,
+          -4.1162282263694836e-05,
+          2.31363118971106e-06,
+          6.953789243760798e-05,
+          -0.00016379143018891166
+        ]
+      },
+      {
+        "penalty": 100.0,
+        "validation_ic": 0.0334477926556267,
+        "weights": [
+          -3.367943477753922e-05,
+          -0.00019857143967021642,
+          0.00015817730677170742,
+          0.0004218052495407819,
+          1.1407485386759844e-05,
+          -6.118052032825725e-05,
+          -0.00024039743814870476,
+          4.357935715173373e-05,
+          0.00030926250452367466,
+          -0.0001621876016674343,
+          0.00010400169606845335,
+          -2.9405243106219065e-05,
+          -0.00029396812143827884,
+          0.00020305097670833886,
+          -3.946374281712721e-05,
+          -1.0083013175454104e-05,
+          7.919581646790181e-05,
+          -0.00016141716208321584
+        ]
+      }
+    ],
+    "scale": [
+      0.0031723875245554425,
+      1.6911095103683187,
+      0.00663780002011489,
+      0.004538522212783397,
+      2.4124320923208598,
+      0.008040621322022606,
+      0.006559874652062484,
+      3.3705397669003445,
+      0.01011648521559019,
+      0.009158132259417287,
+      4.559937498023088,
+      0.01150452900565529,
+      0.012755831095122946,
+      6.188320509211918,
+      0.013103457141269323,
+      0.017825508087414517,
+      8.852900519282638,
+      0.01584383725675929
+    ],
+    "selected": {
+      "penalty": 1.0,
+      "validation_ic": 0.03361929437238949,
+      "weights": [
+        -4.3511904572982624e-05,
+        -0.00019459750148727715,
+        0.00017264477470786783,
+        0.00046658943459521117,
+        -2.2814967179004978e-05,
+        -9.704174801105504e-05,
+        -0.0002730136220551173,
+        6.934173648774241e-05,
+        0.0003493574497005784,
+        -0.00015489423590989796,
+        9.795504888845626e-05,
+        -4.388866821306574e-05,
+        -0.0003219110158721709,
+        0.0002279831751784131,
+        -4.1367608493276944e-05,
+        3.857329402447342e-06,
+        6.830480911131197e-05,
+        -0.00016401579870028958
+      ]
+    },
+    "target_mean": 0.00013715779573810657
+  },
+  "scope": "independent crypto pilot; not the paper's result",
+  "seed": 20261026,
+  "selection_sha256": "ed6d583f003c2dee490ecaf8156454fc6c00c9d24816e08605fa8fb66a63453c",
+  "split": {
+    "test": "2024-05 through 2024-06",
+    "train": "2024-01 through 2024-03",
+    "validation": "2024-04"
+  },
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT"
+  ]
+}

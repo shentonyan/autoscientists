@@ -1,0 +1,8 @@
+{
+  "byte_identical_replay": true,
+  "independent_scalar_checks": 64,
+  "max_absolute_difference": 7.105427357601002e-15,
+  "newline_normalized_replay": true,
+  "scope": "engineering audit; not autosci evidence-level certification or profitability proof",
+  "selection_sha256": "d9772920e74b542b8c08f4fcc45d198c86512ccf08b17ff6917894e27df67566"
+}
