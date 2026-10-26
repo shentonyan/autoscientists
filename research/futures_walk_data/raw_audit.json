@@ -1,0 +1,7 @@
+{
+  "independent_raw_sample_checks": 256,
+  "input_rows_sampled": 64,
+  "all_archive_checksums_match": true,
+  "rebuilt_samples_match": true,
+  "samples_sha256": "4b91dd40b1bba666d11a09e6b87f8d27cdb014fb59a357c9fd621a51b181d9f9"
+}

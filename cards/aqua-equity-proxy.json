@@ -1,0 +1,54 @@
+{
+  "id": "aqua-equity-proxy",
+  "title": "Fixed four-stock minute-panel proxy, 2021-2025 holdout",
+  "question": "Pre-training-frozen CNN/temporal/cross-stock attention ensembles versus validation-selected GRU. Fixed four survivors and unresolved source adjustment provenance make this a proxy, not original AQuA reproduction. Success requires all five frozen component conditions. Forecast artifacts are local and not redistributed. Independent scalar covariance and round-trip-netting checks share the forecasts and market assumptions, not evaluator helper functions.",
+  "experiment": "aqua_equity_proxy",
+  "params": {
+    "artifacts": "research/equity_artifacts",
+    "hashes": {
+      "research/train_equity.py": "744dbbb42c10466868d861f935e6b8c44ee4e3b1fe169da399e3e453df34349f",
+      "research/prepare_equity.py": "6dcd8bc5e378db72c6ba2005aef37ccf2c850a18909eec3a30800b88ac952389",
+      "research/equity_metrics.py": "883a942334fbd9888fc097f2bb62ae5cbcb8eaf5cb6eaba2805b5f392c05543c",
+      "research/evaluate_equity.py": "dee3a87207ba6c84b3b4b32826409f4f70c7066485764f1302180ce785a065ab",
+      "research/train_hybrid.py": "bbe848c31c19cb168c4670c2790b8a7ae71808ef2b4d58afe53777549923b791",
+      "research/equity_public_audit.py": "380f13e3cbe638a79b7b6e8cf257de1275db871fb3b7a6b94b23510249f814d5",
+      "research/equity_plan.json": "50c7a2e3489e4204a07738de5d896907c0263a3967d28cba4e605f3af9e37d27"
+    }
+  },
+  "seeds": [
+    20261027
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Validation-selected CNN mean per-stock test Pearson IC is positive.",
+      "falsifier": "Twenty-trading-day block interval wholly below zero refutes; zero-containing interval is inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H2",
+      "statement": "Validation-selected CNN test IC improves over validation-selected GRU.",
+      "falsifier": "Paired twenty-day block IC-difference interval wholly below zero refutes; zero-containing interval is inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H3",
+      "statement": "CNN strategy has positive mean daily net PNL after one bp per unit absolute turnover.",
+      "falsifier": "A wholly negative twenty-day block interval refutes; zero-containing interval or fewer than one hundred active intervals is inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H4",
+      "statement": "Increasing turnover cost from one to five bp increases PNL on fixed positions.",
+      "falsifier": "With nonzero turnover, lower stress PNL refutes; zero turnover is inconclusive.",
+      "predicted_verdict": "refuted"
+    },
+    {
+      "id": "H5",
+      "statement": "The fixed proxy satisfies every predeclared empirical success component.",
+      "falsifier": "Any of IC lower bound, incremental IC lower bound, costed mean daily PNL lower bound with sufficient activity, positive stress PNL, or nonnegative each-year PNL fails. This is a joint decision rule, not proof that no profitable rule exists.",
+      "predicted_verdict": "refuted"
+    }
+  ],
+  "sources": []
+}

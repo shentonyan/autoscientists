@@ -2,3 +2,7 @@ data/*.zip
 data/*.CHECKSUM
 results/*/execution-receipt.json
 futures_data/raw/
+futures_walk_data/raw/
+futures_model_data/raw/
+model_artifacts/
+equity_artifacts/

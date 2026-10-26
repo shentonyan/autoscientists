@@ -1,0 +1,64 @@
+{
+  "id": "aqua-walk-forward",
+  "title": "Frozen three-quarter walk-forward OI/rebound research policy",
+  "question": "Can a fixed selection algorithm achieve positive and baseline-improving 2025 April-December out-of-sample PNL, with quarterly decisions based exclusively on earlier data? Prior 2024 results motivated the candidate family and are development data. Before any 2025 strategy performance inspection, freeze quarterly expanding training, preceding-quarter validation, thirteen candidates including cash, confidence-penalized selection, two-bp per-leg combined fees/slippage, and five-bp stress cost. Research success requires H1, H2 and H4 supported; this would be an independent crypto result, not replication of undisclosed AQuA factors or its equity model.",
+  "experiment": "aqua_walk_forward",
+  "params": {
+    "sample_files": [
+      "research/futures_data/samples.csv",
+      "research/futures_walk_data/samples.csv"
+    ],
+    "input_hashes": {
+      "research/futures_data/samples.csv": "d8d0a73e5a699739ee0c5ac8e4204d2b043d78a8b7b234e8a32875265678497f",
+      "research/futures_walk_data/samples.csv": "4b91dd40b1bba666d11a09e6b87f8d27cdb014fb59a357c9fd621a51b181d9f9",
+      "research/futures_data.py": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed",
+      "research/futures_walk_data.py": "5398d764180ad310ea4023a486792c5bf1bf8d834416479c18eaf4713122e2f3",
+      "research/futures_data/provenance.json": "84deb6c2e33a2bc011933c226fb9b6a4afe2554691c79c4d00bbd95d57ac0347",
+      "research/futures_walk_data/provenance.json": "edcd6583d12e473720e000a66429db47be8ae5e5a414f80a864d404eb0fd01ff"
+    },
+    "quantiles": [
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "cost_bps": 2,
+    "stress_cost_bps": 5,
+    "min_validation_trades": 20,
+    "min_test_trades": 100,
+    "bootstrap_repetitions": 10000,
+    "block_days": 14
+  },
+  "seeds": [
+    20261027
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The frozen walk-forward research policy has positive mean daily arithmetic OOS PNL across April-December 2025 after two basis points per leg and fixed-notional funding accrual.",
+      "falsifier": "The fourteen-day circular-block bootstrap 95% interval is wholly negative; zero-containing intervals or fewer than one hundred aggregate test trades are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H2",
+      "statement": "The research policy has positive incremental mean daily OOS PNL over the frozen OI-only training-q90 reference, with each threshold estimated solely before the corresponding validation quarter.",
+      "falsifier": "The paired fourteen-day-block bootstrap interval is wholly negative; zero-containing intervals or fewer than one hundred strategy trades are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H3",
+      "statement": "Negative economic control: increasing cost per leg from two to five basis points with the same trades increases aggregate arithmetic PNL.",
+      "falsifier": "At least one trade and higher costs reduce PNL by the exact declared fee increment; no trades is inconclusive.",
+      "predicted_verdict": "refuted"
+    },
+    {
+      "id": "H4",
+      "statement": "Every selected test quarter has nonnegative arithmetic PNL and aggregate PNL remains strictly positive at five-basis-point per-leg stress cost.",
+      "falsifier": "Any test quarter is negative or aggregate stress-cost PNL is not strictly positive.",
+      "predicted_verdict": "refuted"
+    }
+  ],
+  "sources": [
+    "binance-public-archives"
+  ]
+}

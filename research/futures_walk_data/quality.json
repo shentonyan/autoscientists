@@ -1,0 +1,12 @@
+{
+  "rows": 17504,
+  "klines": 105120,
+  "metric_rows": 105117,
+  "funding_records": 1095,
+  "dropped_invalid_or_stale": 13,
+  "samples_sha256": "4b91dd40b1bba666d11a09e6b87f8d27cdb014fb59a357c9fd621a51b181d9f9",
+  "builder_sha256": "5398d764180ad310ea4023a486792c5bf1bf8d834416479c18eaf4713122e2f3",
+  "base_builder_sha256": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed",
+  "provenance_sha256": "edcd6583d12e473720e000a66429db47be8ae5e5a414f80a864d404eb0fd01ff",
+  "note": "input coverage only; no candidate or holdout performance computed"
+}

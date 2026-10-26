@@ -18,6 +18,13 @@ The [public futures follow-up](docs/AQUA_FUTURES.md) tests open-interest and
 taker-flow events on a separately reserved quarter. It verifies at L3, but its
 performance hypotheses are inconclusive and the full filter loses after costs.
 
+[Extended experiments](docs/AQUA_EXTENDED.md) add a frozen quarterly search and
+CNN/attention model ensembles. Both evaluations replay, and same-runtime full
+model retraining matches; their performance targets are still unmet.
+
+A [fixed US-equity proxy](docs/AQUA_EQUITY_PROXY.md) is locked before training.
+Its public-source collection is in progress; it has no reported test result yet.
+
 ![The research loop](docs/img/workflow.svg)
 
 Before an experiment runs, its hypotheses and the outcomes that would refute them are

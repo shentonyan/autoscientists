@@ -1,0 +1,60 @@
+{
+  "id": "aqua-hybrid-confirmation",
+  "title": "CNN/attention ensembles: independent 2026 BTC confirmation",
+  "question": "Evaluate forecasts from a pre-training-frozen CNN/attention research plan, selected only on 2025 Q4 validation and tested on January-September 2026. Three-seed CNN ensembles are compared with GRU and ridge; signs and 80/90/95 percentile trading thresholds are calibrated on validation, with abstention when no eligible threshold is profitable. The L3 layer replays evaluation of pinned forecasts, not GPU retraining. Research success requires H1/H2/H4 supported and positive stress PNL; this is not the original proprietary equity task.",
+  "experiment": "aqua_hybrid_confirmation",
+  "params": {
+    "forecasts": "research/model_forecasts/forecasts.csv",
+    "hashes": {
+      "research/model_forecasts/forecasts.csv": "1b14b9afcf76b3ace215797e2a039b34257aa517b6fa1f26256b4ecd77b6e5be",
+      "research/model_forecasts/training.json": "9e0d2b3512b29865ecf94c1764df7300c590591ab9ce699de6013d06d776b598",
+      "research/model_forecasts/plan.json": "65554cc2645231bf8096c9285fbc8a216ba54a39ad7b71d80145a138aef8eb2d",
+      "research/train_hybrid.py": "bbe848c31c19cb168c4670c2790b8a7ae71808ef2b4d58afe53777549923b791",
+      "research/futures_data.py": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed",
+      "research/futures_model_data/provenance.json": "da84a0b239de8b111a4bbca879c6961d0cea972467a5d959c706ef259512d6e8"
+    },
+    "threshold_quantiles": [
+      0.8,
+      0.9,
+      0.95
+    ],
+    "cost_bps": 2,
+    "stress_cost_bps": 5,
+    "min_validation_trades": 20,
+    "min_test_trades": 100,
+    "bootstrap_repetitions": 5000,
+    "block_days": 14
+  },
+  "seeds": [
+    20261027
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The validation-selected CNN ensemble has positive global held-out Pearson IC after validation-only sign calibration.",
+      "falsifier": "The fourteen-day block-bootstrap global-correlation interval is wholly negative; intervals containing zero are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H2",
+      "statement": "The validation-selected CNN threshold strategy has positive mean daily arithmetic PNL after two basis points per leg and fixed-notional funding accrual.",
+      "falsifier": "The fourteen-day block interval is wholly negative; intervals including zero or fewer than one hundred test trades are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    },
+    {
+      "id": "H3",
+      "statement": "Negative economic control: increasing the cost per leg from two to five basis points on fixed trades increases PNL.",
+      "falsifier": "At least one trade and increased costs lower PNL; if abstaining the verdict is inconclusive.",
+      "predicted_verdict": "refuted"
+    },
+    {
+      "id": "H4",
+      "statement": "The validation-selected CNN ensemble improves global test Pearson IC over the three-seed GRU reference, with signs calibrated only on validation.",
+      "falsifier": "The paired fourteen-day block-bootstrap IC-difference interval is wholly negative; zero-containing intervals are inconclusive.",
+      "predicted_verdict": "inconclusive"
+    }
+  ],
+  "sources": [
+    "binance-public-archives"
+  ]
+}
