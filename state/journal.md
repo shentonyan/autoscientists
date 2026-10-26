@@ -108,3 +108,10 @@ One entry per wake-up, newest last, at most ten lines each.
 - Freeze CNN/temporal/cross-stock attention candidates and GRU controls, Huber/IC-loss variants, three seeds and ridge before training. Train-only normalization; no test selection.
 - Joint proxy success requires positive held-out IC and incremental IC confidence bounds, positive costed daily PNL bound with sufficient activity, positive stress PNL and nonnegative individual years.
 - The public dataset card does not establish adjustment provenance or licensing. Raw/derived prices remain in an external local cache and are not redistributed; source quality limits must accompany any empirical result.
+
+## README evidence presentation
+- Maintainer requested illustrated presentation of the two completed confirmation experiments in README.
+- Added Chinese protocol/result summaries and PNG/SVG figures drawn directly from immutable recorded runs, with source hashes and a rerunnable optional plotting script.
+- Figures distinguish cash abstention, descriptive baseline scores and zero-containing intervals. Neither experiment is presented as profitable or as original-paper reproduction.
+- This is presentation of existing results, not a new experiment or a change to frozen model, data or evaluation sources.
+- Initial presentation gate 9f662210f401 failed because new SVG exports lacked root titles and README SVG links; add both to satisfy the existing checks without changing tests or frozen sources.
