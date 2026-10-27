@@ -1,0 +1,982 @@
+[
+  {
+    "file": "BTCUSDT-5m-2024-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-07.zip",
+    "sha256": "657f79d55b809ca18f242e950c916bbbe93c3d09697f0e330ba26b5a6a75a4e6"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-07.zip",
+    "sha256": "acab0593c1452660ce74a6c239fb215c1192b0a9c6e8c1689e6495de40a0174b"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-08.zip",
+    "sha256": "5804758756c980445eb6bbba96f10bd98bb7da471b6041bc31337cb0c7236a16"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-08.zip",
+    "sha256": "7003d29a43dd5f9357f838da8766834954939e22c1d80af682d9f33984f67b71"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-09.zip",
+    "sha256": "15ffdcf3d23f9fb6743c54d9d783cdc20373aaf8f60fd949a85653e7bee29170"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-09.zip",
+    "sha256": "6ef23b02392b481ef9c3855434bf3644289fb6e228b4f7d9a0dfc6d3cdff1116"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-10.zip",
+    "sha256": "024d574aec22d830443dfe557c12137d24423c18b228e2c10045851cd056434d"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-10.zip",
+    "sha256": "26db65ac8020d80ece35df79c254c5f7e24427529bcceeb2972748c4fe2d2707"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-11.zip",
+    "sha256": "bf2ff598c07f5f78a4265c376b3a8f3277e39b42d66bf79610b8b3199a34fa45"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-11.zip",
+    "sha256": "e1b19cccfe2cdcba48b022790789b7b01edd86c075f39bc152e44c267d43bd51"
+  },
+  {
+    "file": "BTCUSDT-5m-2024-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/5m/BTCUSDT-5m-2024-12.zip",
+    "sha256": "261ced4d4a389f680ae730c53ba82b42f97f656b630352713e2d7fd738f57b8c"
+  },
+  {
+    "file": "BTCUSDT-fundingRate-2024-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2024-12.zip",
+    "sha256": "069409f525ebf6370ee1c7defe475167de4b97284c5ac8e68768652968cd3dc9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-01.zip",
+    "sha256": "e4236dcb22fda0ce5c881b7cbf9a4a9c3b220d879dd14a0b53c6c47e6d1c9ca7"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-02.zip",
+    "sha256": "ff048acf7867f09aa2eb0c2a54018d80c45745105a35480b525dbd338b2dc67a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-03.zip",
+    "sha256": "d43761b36176a5031ecf55a6bec6f6474f7c50123775b98150613c9414af6afe"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-04.zip",
+    "sha256": "34d59aae7acf2afa2e7411e51c513a01d87724ff865acc134397567c9f3f7881"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-05.zip",
+    "sha256": "a6fdda7edf374c624341d34385c5512317d9819685d2c1d98d7db0baa941a2a0"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-06.zip",
+    "sha256": "69b21a80aa0930f9cdb10950d85437b802af85c3263f9a18fbae044f4a0e3822"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-07.zip",
+    "sha256": "9a5c727f262d71aa31d5fb0499de3c950b68ac408a280a6c8ec5d215e1514d07"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-08.zip",
+    "sha256": "e791b811695a35ccb05ba2cf0e0df383c45ceb6ec7d1735ed8afb9f578c286a6"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-09.zip",
+    "sha256": "7954ac8410a251604524ba8398f0753332ce2542bacadbdb4c5a5a77bb585150"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-10.zip",
+    "sha256": "07f9626d18d8213d00a1eff210c11b44068154e1223099086678cacbbc7aaa64"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-11.zip",
+    "sha256": "ecb897d848eb22afc2fa23642178a3d8441a4a799ecf7f1b96a3ed8d19a62c77"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-12.zip",
+    "sha256": "75fa339ad1b933fe648bdbe6c5a4ba2d6c7204e02cbe3e939583c738c453ae6d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-13.zip",
+    "sha256": "c9434b7692e7b05ec812ce53b120834e25519d5c29010285d1f5b91dab3d0c73"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-14.zip",
+    "sha256": "a2643538666a3c0ae63f64bafda08094da68b087ac907dfbb446f7ff2085ba0c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-15.zip",
+    "sha256": "bce56234f10b9509272732d1414750b0f61424be1926c3e16369c40a40fba44f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-16.zip",
+    "sha256": "2238bd7889fa973edc07c4bdec6848f6f282ce7663db96af7108e7805e8cd800"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-17.zip",
+    "sha256": "939199fd90759dc0cd35e533a1364092f17454db776a3920d39948b5526daeec"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-18.zip",
+    "sha256": "775ac52accdb9c57be25bb1bcc364d37b417c0743e88f678f968bb4f66b19ff2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-19.zip",
+    "sha256": "37bbf6bf137dc92d14a954e0898ed783a7f04e0dca73c258fe87897e7a2f845a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-20.zip",
+    "sha256": "32f0b3135cda5895b1d9633e85a16d75b7d1be11ddc4f5b26c14aa7fa2c403a2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-21.zip",
+    "sha256": "f564e2220e31caba2e1bc1766793e86043de498e6f24793750309a9633d8f1b8"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-22.zip",
+    "sha256": "8938737d02929ef1d4bd3a2dd04b579008d649d65d3125a0b7334d38b8c8ced9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-23.zip",
+    "sha256": "77006b1990c473cd9322af200adb022f55b586b25d3013e9846875c7eb71ba6c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-24.zip",
+    "sha256": "407493aa9dddda17919a65b475d4d7a635eac1b5469492e528d820f1994179ec"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-25.zip",
+    "sha256": "f9f7dffb8c64a5f6348086621ea351e936178c921bb5687e35d270871eeb938f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-26.zip",
+    "sha256": "1964007a2e94365ec1cc3c1470283d4db3f0fd9f27440e51698ee82bad0534f8"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-27.zip",
+    "sha256": "ca88409a223c12fb92e0644dca1c9ac4f884aec59ef0a54294f44f728ff7327d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-28.zip",
+    "sha256": "8bd8b1b52b5e57e344ce050c151eba7c8007d74ef2670c1fe09b7bd05c678895"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-29.zip",
+    "sha256": "ada4053a3f92843405ca47d170ba719dbb17af13386a044ccdc005ca03b6ba58"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-30.zip",
+    "sha256": "9dc5d7164e67c7669634b058b2812496c29b8587418fe8f7f6321222ec9d706d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-07-31.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-07-31.zip",
+    "sha256": "2f8a647f7adc6931038bdea05725e6b84f4814e4beb757b324ba8d959220d7db"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-01.zip",
+    "sha256": "9327bd32a5e6b1e133789004169655b1bf99887d9b291a976883ff55ec3c165c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-02.zip",
+    "sha256": "defe68e4cf2e619706cd8a418236737d21894066561472cd3e0dd37168588100"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-03.zip",
+    "sha256": "14d0bb19ec7571a81f428686e1ec147b7864c44900eaa89909a7a518ceddb8ba"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-04.zip",
+    "sha256": "b865ef34878c7b164bdd1f69f14f09d62e92b88ad00a1bdd174b2ccc8e579942"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-05.zip",
+    "sha256": "e506044fbba467ac507137cbd252b240ca7e28ede9aec23c42911ea772fa1a60"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-06.zip",
+    "sha256": "76d863a0ebb7b298d2ab1749e57414a8dd53389ba0d236dccff84053766dcb7d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-07.zip",
+    "sha256": "64b3319ab56107745f79b825d53073af6bea771965e774f058e000cbc8cceb55"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-08.zip",
+    "sha256": "5d71310128ced29a57d806c37a9670eb22e840e61fe233c3fe1604304b3e75e1"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-09.zip",
+    "sha256": "53b194bce8895ae5d33953217603238fa397cb91129ed142326348a44e076a1f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-10.zip",
+    "sha256": "e79a39876e03120a1fbe5c51a18c6864f9f66bc156b0e599d1eba3ab8654602b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-11.zip",
+    "sha256": "28be5438411002ef23632eeac9156ed6f577ed2204cc455ebabfe580da8f0c5e"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-12.zip",
+    "sha256": "710eca9516c33fe4cc18073d04bd573041b826fb6eac21fc15de26543243edc9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-13.zip",
+    "sha256": "b900b00bc9430adeff0ce53f269e67f3d81e9e93ed1b62c3346408b01d23c78f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-14.zip",
+    "sha256": "b071cbcaeb80ce76480d7453c8b9d7f911b226a96310f7a0404b9b1bb8f26904"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-15.zip",
+    "sha256": "6ba8f7291ac009447792b33ff36c3a409b4ee9243cc3eeb8f700081be45769b2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-16.zip",
+    "sha256": "ed6917769ce30bdf732279c9b873d073c30fb96a0cd82471c859fe0414d1bd77"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-17.zip",
+    "sha256": "3b90428d1bb75acd3b946d19278c72089403c446d336aaea058f06274133d9a1"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-18.zip",
+    "sha256": "5a28114e48f7178790f69b9c7754483920dc6781596ee88c1cf3f9a98e13caa5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-19.zip",
+    "sha256": "caedf423bce4a46c4ccd47f4b7e55d079c0796faf9e1201d8838815f6df35280"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-20.zip",
+    "sha256": "38fe24c70664101959f74a08585bfb3d7fa237b574336ee7b11a1042607ef4ad"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-21.zip",
+    "sha256": "cb5e284bd7aa5b0174765abe0fc8e603e626b90cf96e072280f471d98dd12707"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-22.zip",
+    "sha256": "c0e70d9e43688b3a1c39d9fa9ab16148da37683c81b4e15d928eb2d383352d5c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-23.zip",
+    "sha256": "da367049a8e9990c5a94263178a5c95626eefbc6dd84708a702add4ba8a77fdb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-24.zip",
+    "sha256": "33acb45195e4e51575c677f041b58d97277c5ea5d818c3078449bfbca7d0f343"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-25.zip",
+    "sha256": "3ee90278af1a1ca8474a9386499cd541521b1cb006928a10a198956ef3422546"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-26.zip",
+    "sha256": "0a001bdb2cad78a8500ba0de439633b21942dc88233cfd0a69d71fabeae70c70"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-27.zip",
+    "sha256": "1bcc50cdd6dcbb7d0a3551f9ea68421b830572f55ddca014299503f82e223080"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-28.zip",
+    "sha256": "078ccec3ae47f8617f09dbdc2b6f597e18f4e9709fea6d41122dc67a84666bcc"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-29.zip",
+    "sha256": "f1d5dd09bf1d3b8974ec25709bc08619b18a058aa6944685cd2465e5f408d93c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-30.zip",
+    "sha256": "00e250f94711214e31011314cc34902e58c7c939d75d89674209b4fb0002f550"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-08-31.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-08-31.zip",
+    "sha256": "37873d364f7bd47b7ddc2a83cc96870cb6317b4e81a46684e4b82cba51030b3a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-01.zip",
+    "sha256": "6cc8c00e33d0ac5aca6c9967f5eeaaafe99f527bc3eda86824c52f75efbaf5ec"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-02.zip",
+    "sha256": "5073338d03df5495720be8d5d8cde11e1a43af6e792f8b11a97a24b72cc1b9be"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-03.zip",
+    "sha256": "a07b22bb77b87111600e386e36cfbadf7478d6c701bb07f8a281b0a96924f7eb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-04.zip",
+    "sha256": "dae6cf534005a06f91156929bd1fd14c3eb8cf29f56c6f09994fb47cf1ba9d5b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-05.zip",
+    "sha256": "6763faee5e2b9d652bd02d340c095c22ec3398cb8bc26dab2a73b61c35be1571"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-06.zip",
+    "sha256": "86554426f0eb2f97be796e398e7db70ec9cc1a521530f3b7b02da867bb7d8d6c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-07.zip",
+    "sha256": "155be442a97675a1fc87cfa9523211fbde067496c7e416be528e6fcc8bcb342e"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-08.zip",
+    "sha256": "0fb49ac0e91c6317348b476eb10f5732745a779b1b957bef653c8e745193ea15"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-09.zip",
+    "sha256": "1c293dbf6e1e12b8dea706fb27814d93e8188d232c2ec391083a7fec9a5173ce"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-10.zip",
+    "sha256": "72b12a23a0df5d1eee86c193869f0f72bbb6f4ca673586b3ec89bd3237dc9689"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-11.zip",
+    "sha256": "ebc4a37ab189f78f1e3034c29e6f5eeec12da1ee9f65e4b0a0ad1571a9e0c5be"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-12.zip",
+    "sha256": "30307bc148084fb165366a6e6f074b42f8c50df14b25c457a9d762b515409a70"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-13.zip",
+    "sha256": "e460eeae0d81fa9eb78addbdb4244e0bceab0abcb911d284c13eace3c5a8d13f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-14.zip",
+    "sha256": "ac31bbd9deecb3b2f0f002de1ad30330d27625a2a2cfddfd2ed6e325ebb871b2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-15.zip",
+    "sha256": "09b0ab67179f0285b2b88ce25bbbab47efdbf351bad32d4b4350efc1ab7dedc5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-16.zip",
+    "sha256": "ded32633556d0f00e03954ef2f4b812a53c701769d7eeb9fabcc445581754b5c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-17.zip",
+    "sha256": "894ccdf098fbbd59b0dbfba770e01621ea12174f0474359d54cad64e76da26fc"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-18.zip",
+    "sha256": "2b04e76a9eee2031f82783d8e9385e0d7c490576ca2b585f15249b859ebcd9cc"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-19.zip",
+    "sha256": "6f286b63a87e01b5209b8cbf6647db92d6b5802c21f390e9032fd545f4880beb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-20.zip",
+    "sha256": "11faace98d543944aebb4377ed899c876e84955b65e4267dc7db7feb318a96de"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-21.zip",
+    "sha256": "88837f7aff41c423c6daf12f48a5e749fabad4b5f543f960d6a762d742f28d56"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-22.zip",
+    "sha256": "97edbf4f5c03a5740b131590404e8c1f007e3b53e1dac66065aa1471b9c8c2af"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-23.zip",
+    "sha256": "d639ac50ff876a6754fb3b0c01fe9d461c6583de29543cdaf4027aa0de56b41a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-24.zip",
+    "sha256": "a3206b090a280a3aa2d59d68dd712bf85667b3448b924c34afa056707db76b92"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-25.zip",
+    "sha256": "c4467f2bf87657c4e19445c87d15f022629be008ef09dfd352ef2b9c22deeb8c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-26.zip",
+    "sha256": "c6bca0cd6e13e79039749a6dfb128b4bb1bd0e9bc31596eac2ed92f6f684d429"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-27.zip",
+    "sha256": "ec130516f6996d6e22dc3c0bdcb17570ddf30017982b079d950acb13523b9c41"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-28.zip",
+    "sha256": "cb299443e129a5619b2d5057b82ec82d87ce9e1694165b5f0cce72eab3507960"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-29.zip",
+    "sha256": "c598c227238f3f50fc08cab9f3c5c6c34cce603f8cd983ebd5d67375ac93c344"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-09-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-09-30.zip",
+    "sha256": "e9b0f695c1acb4e127d56f381520504299128f95180a9b184d0dbb5b4dfe1a0d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-01.zip",
+    "sha256": "3029f23423c2e012a7a695a620d33f8ef84d3c3b978d4436856015481dffdc62"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-02.zip",
+    "sha256": "9ca04d160de52502f409cfa42a35c19256da242b2557377cc05ba81f26c778e4"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-03.zip",
+    "sha256": "11373ea8593702599180269fa4bbf5f124c0c1762966d57fe0eb15ec100b6809"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-04.zip",
+    "sha256": "cba31dc20d3ccf7ca9d180aecd4ac1bd982fed4f8c94216163bbfc2d01990484"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-05.zip",
+    "sha256": "f32927ed54806656adf2b4139d73f78a84431451f9ed687d57be409b3d9e1ffc"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-06.zip",
+    "sha256": "84dde887ab421924c135506497504160b71a34ef4225065849953dbe1e1f25d4"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-07.zip",
+    "sha256": "5ab2472c534913489ec09dafffa88f76f2a964e0e7258980fd894661c7924f95"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-08.zip",
+    "sha256": "6f1d9e6d76174e534a7346926a250a65231cef8e937718b340b23469b89f35a9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-09.zip",
+    "sha256": "6d766d46c6156ba10121928233ba9d5a94bd3590ef795c2b51c07b28a9a86f1b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-10.zip",
+    "sha256": "81735bb314b62e43f0c6d52ea6202f52df81974d1b0495d09d4c7cb650494a75"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-11.zip",
+    "sha256": "f6045487aab35d3701064d20f78cc63a2261a6b0e6d393d7f46dc0ec18bea2a9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-12.zip",
+    "sha256": "2c9bb8e79d5c78d9bfde42f4fed47f2d12b882decc9536883c132eb630d81197"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-13.zip",
+    "sha256": "334688cfb84b8dca2a247b983b2c9da11ad83d5f265812ef3c4a1006dc18925e"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-14.zip",
+    "sha256": "ad2915daf9e2b8c36394f384e1fcc85eae1cbfc84c51a1e367e3cd17550eb060"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-15.zip",
+    "sha256": "e818ae0de82da5a78502793ff421c3e4c45878aab3f13a1ffefe59a841ca7a18"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-16.zip",
+    "sha256": "5fe2f7a66366d0c005dab56c61688f26e212a751e6d8832c1d7ec19cea856735"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-17.zip",
+    "sha256": "958aa23c0034c77f585a866f56248825e7090c18d001709d246f49dbd2cd94c5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-18.zip",
+    "sha256": "06a216be5b9795c15787416228aa6bef7efdd011320a0e41d43e051ba395a7d5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-19.zip",
+    "sha256": "119edf83a857beebecc2d56b5c3cf10b8ca18877a839adcfd7c3bedeb998c1f9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-20.zip",
+    "sha256": "de5d1d37393938d4fe3b77f713c153c1415498cf29030e8b1ea5e7090d75cfcb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-21.zip",
+    "sha256": "7a85708cdc027b70decfd7159ea685275a74cd1d402fa5a1ad1cbfeb07b3c8f3"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-22.zip",
+    "sha256": "2a3ebbf70a745dfb3256e0922cf853ffb85ebae50904f71c30c3581b14c7ac66"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-23.zip",
+    "sha256": "f51f475aa28acd0c1852fca3b2726506485bd54a8b7f5811961e1197b159a14b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-24.zip",
+    "sha256": "58d7dc7a58af23aac2c82c1323ac32cd4c568b4011740e4b6d07d533331816cf"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-25.zip",
+    "sha256": "3a46c1b7e9c0abfa720192d30e651c19700cc50b4ba1b8297fad73bcede50d81"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-26.zip",
+    "sha256": "95e3a031188c2b33ecc4021e88ab51e91041253529ee786d5b672cd4e535cace"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-27.zip",
+    "sha256": "b054521ed9fb88ef3ce0cd652187adc0b5c1966e0b0471292f1ad50440aedd64"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-28.zip",
+    "sha256": "33bc9d3abefab8b9b1264444657c7855c2f0622833ea76647e22aa524f3f132a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-29.zip",
+    "sha256": "8916870af59b2f592c256cef40ac22d09039a8baba5bb6ba7c89cfc92dfda5bb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-30.zip",
+    "sha256": "c195c58841f841e2587a00a99275265b7cdc98d3f685684092bd12341d2994c5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-10-31.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-10-31.zip",
+    "sha256": "eb6f2fe5372f42fb3349ee66d8c40c742c3b92675ed3f9b386870a74be7f8e34"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-01.zip",
+    "sha256": "d9d5d38584054aa82effb3fe2c3ca0206d771acb844c0dfc744312c3693712d8"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-02.zip",
+    "sha256": "0a1b95eb584482aff0d5702d56ff728ccc895a1c415ca550cb68a9cedb73d4c6"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-03.zip",
+    "sha256": "d9dfc2b17abb0d9e7267526b9d3f9ea45cd70071b635ea297d5222f22b6d2692"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-04.zip",
+    "sha256": "a1994c67290af53e054f6a95c0a2d3be09c44ee474cd3c232307e64ab3159c2a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-05.zip",
+    "sha256": "d90973a640d33477106171cec0ff555b341dcbb887f3c6d80e9f66d68c152bde"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-06.zip",
+    "sha256": "813328e6cda5144999080288a5b458cda27d44c491c0c03752fd637516b1e87b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-07.zip",
+    "sha256": "270e6c2aa484b0c48bf5689c029f9b4d0e6c26866ebb0cdf843610d23daa9ef3"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-08.zip",
+    "sha256": "331b0b7c90759bf29c0f34c1e018c45ba8ce49af7e811feeebf096813a94a9f9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-09.zip",
+    "sha256": "e5fe025e1132baedd94d7ef7c1fe37525849fcae893d94e3b5ed3f6a878254d7"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-10.zip",
+    "sha256": "aad3f71912a18afa19018ed73c8965357ac4f64c6ffbefc2cfdaf0d762ad5c9b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-11.zip",
+    "sha256": "a473b058c84341d9ba3d6269ddb19eee884f567b63775b94e11e2ddc0daa0a2a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-12.zip",
+    "sha256": "74f8887b7f348e918da1cb306aa46aee5fa8e593f3802fafc32916d8f8324f59"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-13.zip",
+    "sha256": "f9bf00b0224af33c0a1c13bac70b9493ab2010495e2dae20257c9d7f3fab8f0f"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-14.zip",
+    "sha256": "ad7727ddd9ab974deb9078ae8ab41de74dc9003e297847ce0508665d210d93ab"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-15.zip",
+    "sha256": "924c36411748f58eff45ac064727eec6ddd56d368286b543fea891c6a9fcdf9c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-16.zip",
+    "sha256": "7e8d262beda8684ccbc519387acaf623ef68e43a4048bf0672b1c158b08b2367"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-17.zip",
+    "sha256": "773210a36ed6be96e58cfa0755a3f3d0299d36600fad533a374b3e4a78c0408b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-18.zip",
+    "sha256": "a753ff8f80de0f28a0769572bc83d8be40e2dab3621ab036a33322e896dda175"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-19.zip",
+    "sha256": "e177e6bcc6dbcf0c2aabd10cefee80e01028f30872e3b5f1ca512b17d93f7ec1"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-20.zip",
+    "sha256": "89bee645dac9910feed6624d2305343c98ecf74ea1dada5f09a74f1564c6e2d9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-21.zip",
+    "sha256": "8b81f35fc2a92d6616160b076fd279c8d4da2be47d265ba89a20c4c4217345df"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-22.zip",
+    "sha256": "6517270983eb4b4e0b9d8955762f904dcf5bf4da66a01246bbf1198e90f3eb8b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-23.zip",
+    "sha256": "4e118696b720088526196b5c460841aae5f45840b40e5a2720c95a18120da023"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-24.zip",
+    "sha256": "0bd7b9a082183ab10daab986f516e01c60fa8efc646d93f51a17745b5e5b53c5"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-25.zip",
+    "sha256": "2f12bb74ad921a6a9fe73ff75c3dcdd3bb8145b082738a8c7c1aa0d6d257149a"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-26.zip",
+    "sha256": "2d796a039471945583db877f8f8eca384d38efa171f055eb51dd8fa3fabc9351"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-27.zip",
+    "sha256": "ed579518872599cdaba6b87f216d4abbed8ba0138840dcb7f9bd9c5e467e19b9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-28.zip",
+    "sha256": "caea628bd5f305184978ecfaa6bb3e4b0e4ae99660814bc305076771429bbc1e"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-29.zip",
+    "sha256": "4486b3b7785fbb4be38d6d4326f38dcf9ffcaafc3081a9929c8d41fa45a314de"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-11-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-11-30.zip",
+    "sha256": "58120f38b0ac03d35ea79183cb33703826e093a1462aebf94f50a8c2dc9c01ec"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-01.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-01.zip",
+    "sha256": "622ec671b0e64cf993d8edd0f32c0a0f8c6639d6194f635d6e10eedc60c2f028"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-02.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-02.zip",
+    "sha256": "69ccc6672a9a7ffcf2b2a7d1eca71406a4ad4a99c4d1c29888153dc959cd4ee7"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-03.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-03.zip",
+    "sha256": "e5521e7c5b1e6923b8b35e99c21a15383ec8f62d12b3adcc1768b44bd5cf52ce"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-04.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-04.zip",
+    "sha256": "80e3f48829db8e1e0232c4df33658ccbbbd101a4aeff69a199cf2f36f6809139"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-05.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-05.zip",
+    "sha256": "be718a4cbabd916d36a58a21099b4ace67114f9e85bab23d18df1b240619e317"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-06.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-06.zip",
+    "sha256": "b4c08f91787120b28ac0359ddc4062effe27ec372eb810936fc8a5706de4453e"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-07.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-07.zip",
+    "sha256": "34c33b1e292eb1ce1ec9982431aa649153c67a5c96b071e16d4ae6f3c83db7d9"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-08.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-08.zip",
+    "sha256": "e7a0daf83d99cde272164da73d02018f7ebe3bdb9dfc209a5dc30aa48cd94100"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-09.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-09.zip",
+    "sha256": "cb8c64f6a225ed5166364d8cfa0c550bef5ef9ea597de9185821ef0c4dff5282"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-10.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-10.zip",
+    "sha256": "1d18a0b8b0398be5feb615d16cebef834c5eb666c22ac6d9e69d4c9473be3e3d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-11.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-11.zip",
+    "sha256": "381f5b1ae3321dc3981ea599ddfc7933967839c95f92abb0d04107f67f3a0ccb"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-12.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-12.zip",
+    "sha256": "6a1ea5e71d8df354c237341d9ca50380acb3a8eb62645f7c5b1fe6aa50b0d8be"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-13.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-13.zip",
+    "sha256": "0967c056529480da14f4430060b2a4d2e557f38f10a3dfd424142495b03d8b09"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-14.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-14.zip",
+    "sha256": "636a52968f8ef89d49092e6cfbb592f0bcd97c6d9a9699905ee3d380ba449d06"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-15.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-15.zip",
+    "sha256": "89e4b758a8b190a346634c5580cd7b201b67d09367c72e5558d166397ef64f3c"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-16.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-16.zip",
+    "sha256": "83416bb69384ff2049901c1c1fa0b60ed884dbe49973c6eb2ddffdc91add7389"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-17.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-17.zip",
+    "sha256": "e32c0bed90681feffe1ae9b7b3353b22c779da253432fd71a658328023461e90"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-18.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-18.zip",
+    "sha256": "8ed0eaaed637d41aace3a13e53e715078434ebd07e3af2a6e154ef7072aa4247"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-19.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-19.zip",
+    "sha256": "6ebc9337617029c69ac8d780560daefb3f4ebc57b2036d50c455e42572ae2f4d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-20.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-20.zip",
+    "sha256": "741d543b9291f69d156f8a8044a6c0380f42bc91aa336d7061e109b67589eba7"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-21.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-21.zip",
+    "sha256": "27e0b6cfde3e692f2d03ea00a8ea40761563f9f3190559d244a370336fd11ac6"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-22.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-22.zip",
+    "sha256": "4a18c96e1df77c7c182d8c653c91aed0f4cacc6fe2b4f5decd56dda93a695f10"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-23.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-23.zip",
+    "sha256": "9a4051993d2e124dd39b3ce3c9b9f69914c8a57f3c7430c8cf0354a55c5906d2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-24.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-24.zip",
+    "sha256": "499bd68c5fd1f195045d4c6c5a6bc0ffd3c5dccbcc9121adac03ecf92ff8411d"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-25.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-25.zip",
+    "sha256": "2b8a3452a58b651353acb97bf1179bb452a7be2ee130f72a527fe6a48ef2f608"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-26.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-26.zip",
+    "sha256": "33294dc631ad67ba07e9b447bc83c5827fcb000f6e132623aaa376b239f474f0"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-27.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-27.zip",
+    "sha256": "77337b3ad4a8039732755daeaf07ed43b18b62ede678687de405ca782d7cf6a2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-28.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-28.zip",
+    "sha256": "8996612b73c8b3ac793d2604892993f0daf8cab9e2056953fea23dcadc86bf47"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-29.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-29.zip",
+    "sha256": "a949bd358099505287939fd25e1f9a60763e5b46b4b068b394c7153e3d00529b"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-30.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-30.zip",
+    "sha256": "ef3aaf57c8e1766c75fa6e034862b18b6e0e10dc5b15ecb7b430a6a99e4ab4b2"
+  },
+  {
+    "file": "BTCUSDT-metrics-2024-12-31.zip",
+    "url": "https://data.binance.vision/data/futures/um/daily/metrics/BTCUSDT/BTCUSDT-metrics-2024-12-31.zip",
+    "sha256": "f335498dd75400c1360328f44a2ff82e383c44dd4894e6f6e4f1297d86b93d44"
+  }
+]

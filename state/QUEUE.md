@@ -8,3 +8,5 @@ Format: `- [status] short title: the idea and the direction, in a few lines`
 (empty)
 
 - [done] AQuA pilot: matched-budget restricted auction search and a separate public-data quantitative pipeline.
+
+- [done] AQuA futures events: public OI and taker-flow mechanism with a newly reserved final test quarter.

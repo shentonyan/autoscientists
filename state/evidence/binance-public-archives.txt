@@ -1,0 +1,11 @@
+## CHECKSUM
+Each zip file has a `.CHECKSUM` file together in the same folder to verify data integrity. The verification can be done through:
+
+```shell
+# Linux
+sha256sum -c BNBUSDT-1m-2021-01.zip.CHECKSUM
+
+# MacOS
+shasum -a 256 -c BNBUSDT-1m-2021-01.zip.CHECKSUM
+```
+

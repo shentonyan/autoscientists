@@ -46,3 +46,23 @@ One entry per wake-up, newest last, at most ten lines each.
 - A separate read-only reviewer found no unsupported note claims; same model family, not independent human or different-family review.
 - Interpretation: numerical auction search improved on this benchmark; crypto profitability and LLM research improvement were not established.
 - Not established: original AQuA factors, original US equity CNN/attention model, its headline performance, real execution or memory benefit in trading.
+
+## Futures event study: design before locking
+- Direct user continuation: public data only; no original undisclosed expressions or model configurations assumed.
+- Fixed July-August 2024 training, September selection and October-December final testing before any candidate performance inspection.
+- Six registered OI-quantile/flow-cut configurations; best eligible validation mean daily PNL selects the filter; validation also selects its reference including cash.
+- At least five validation trades and twenty test trades; insufficient counts or zero-containing paired block intervals are inconclusive.
+- Seven-day circular block bootstrap with two thousand replicates; one fixed seed. This is approximate finite-sample inference, not a universal mechanism claim.
+- One full bar execution delay, thirty-minute non-overlapping labels, purged split boundaries, one basis point per leg and realized fixed-notional funding approximation.
+- Independent scalar mask/PNL check and closed-form fee control share only pinned sample data and the selected configuration; sixty-four raw sample points passed a separate feature audit.
+- Data quality: invalid OI rows are not imputed; assumed five-minute publication lag and up-to-ten-minute as-of staleness are disclosed, not verified historical availability.
+- No test-window performance has yet been computed or used for design; later refutations/inconclusive results will be retained.
+
+## Futures event study: results and review
+- aqua-futures-events recorded and re-verified at L3; H1/H2 inconclusive, H3 refuted. Strict notes lint passed.
+- Full filter: nineteen test trades, below the preregistered twenty-trade minimum; mean-daily bootstrap interval includes zero. Negative PNL retained.
+- OI-only is positive in this test quarter but was not the validation-selected reference; no post-test strategy promotion or threshold relaxation.
+- All raw archives match published checksums; derived samples rebuilt identically and 256 independent raw alignment checks passed.
+- Existing 67 tests plus 9 previous-extension and 7 new futures behavior checks passed; protected core is unchanged.
+- Separate read-only reviewer found no substantive unsupported claims; same model family and not independent human or source/provenance review.
+- Not established: profitable execution, historical publication latency, LLM improvement or reproduction of the undisclosed original factor pool and equity model.

@@ -1,0 +1,15 @@
+{
+  "klines": 52992,
+  "metric_rows": 52990,
+  "funding_records": 552,
+  "metric_missing_or_stale_samples_dropped": 128,
+  "split_rows": {
+    "train": 2847,
+    "validation": 1439,
+    "test": 4413
+  },
+  "samples_sha256": "d8d0a73e5a699739ee0c5ac8e4204d2b043d78a8b7b234e8a32875265678497f",
+  "builder_sha256": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed",
+  "provenance_sha256": "84deb6c2e33a2bc011933c226fb9b6a4afe2554691c79c4d00bbd95d57ac0347",
+  "note": "coverage only; no candidate performance or return summaries inspected"
+}

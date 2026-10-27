@@ -21,3 +21,7 @@ jobs:
         run: python research/check_pilot.py
       - name: Verify preregistered auction search
         run: python -m autosci verify aqua-search-pilot --strict
+      - name: Futures timing and accounting checks
+        run: python research/check_futures.py
+      - name: Verify preregistered public-data futures study
+        run: python -m autosci verify aqua-futures-events --strict
