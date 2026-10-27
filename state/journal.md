@@ -115,3 +115,11 @@ One entry per wake-up, newest last, at most ten lines each.
 - Figures distinguish cash abstention, descriptive baseline scores and zero-containing intervals. Neither experiment is presented as profitable or as original-paper reproduction.
 - This is presentation of existing results, not a new experiment or a change to frozen model, data or evaluation sources.
 - Initial presentation gate 9f662210f401 failed because new SVG exports lacked root titles and README SVG links; add both to satisfy the existing checks without changing tests or frozen sources.
+
+## Completed equity proxy and result-first README
+- Locked equity run e60e949f7ed4c1dc completed; the background coordinator recorded L2 forecast-evaluation verification and independent scalar checks. No raw price/label artifacts are published.
+- Validation selects cnn32_ic against gru32_ic. Test IC -0.00933167 and paired difference intervals include zero; costed PNL -0.19207847 has a wholly negative daily interval. H1/H2 inconclusive; H3/H4/H5 refuted.
+- All recorded test-year PNLs are negative. Stress arithmetic PNL below minus initial notional is not a simulated margin liquidation; no original-paper replication or profitable strategy is established.
+- Main missed the prior README because PR10 merged into the already-merged PR9 branch. This revision targets main directly and presents all six studies, including the positive scoped toy-search result and latest equity failure.
+- Publish source-linked figures, result tables and training/quality summaries. Do not change frozen experiments, locked cards or run results.
+- Fresh read-only equity-note review found implementation-scope overstatements; wording was narrowed and re-review found no unresolved substantive unsupported claim. The reviewer is the same model family, weaker than different-model or human review.

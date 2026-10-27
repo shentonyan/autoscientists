@@ -1,4 +1,4 @@
-# Fixed US-equity proxy: preregistered, not yet a reproduction result
+# Fixed US-equity proxy: completed, empirical target not met
 
 This study is locked before model training and test scoring. It approximates the
 paper's minute-equity task, but cannot establish an exact replication: the original
@@ -43,8 +43,20 @@ blocks. Failure of this conjunction does not prove absence of profitable signals
 
 ## Status and rerunning
 
-The card `aqua-equity-proxy` is locked; collection/training/evaluation is in progress.
-No test scores are reported here. The six synthetic data/accounting checks and
+The card `aqua-equity-proxy` has completed as run `e60e949f7ed4c1dc`, verified at
+L2 for forecast evaluation and scalar accounting cross-checks. All 175 months
+were collected. Retained panel rows: 17348 train, 4435 validation and 9578 test.
+Fifteen neural members and a ridge control were trained. Validation selects
+`cnn32_ic` against `gru32_ic`. Test IC is -0.00933167 with interval
+[-0.03690287, 0.01874551]; the paired IC-difference interval also contains zero.
+There are 1613 active intervals, arithmetic PNL -0.19207847 and annualized daily
+Sharpe -0.92958270. The mean-daily-PNL interval is wholly negative: H3 is refuted.
+Stress PNL is -1.25367847, all recorded year PNLs are negative and joint success
+is false. This fixed-notional stress arithmetic is not a margin/liquidation model.
+See the [report](../reports/aqua-equity-proxy.md), [run](../runs/e60e949f7ed4c1dc.json)
+and [training metadata](../research/equity_summary/training.json).
+
+The six synthetic data/accounting checks and
 GPU forward/backward/optimizer smoke passed before training. The optional data
 environment is separate from the optional PyTorch training environment and the
 framework's standard-library core.

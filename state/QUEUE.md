@@ -15,4 +15,4 @@ Format: `- [status] short title: the idea and the direction, in a few lines`
 
 - [done] AQuA hybrid confirmation: pinned preplanned CNN ensembles versus GRU on untouched 2026 forecasts.
 
-- [todo] AQuA US equity proxy: fixed four-stock public minute panel, original-period approximation with a full-year embargo; freeze model and success rules before training and scoring.
+- [done] AQuA US equity proxy: fixed four-stock public minute panel, original-period approximation with a full-year embargo; freeze model and success rules before training and scoring.

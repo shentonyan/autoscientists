@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "runs/8a7a3667c87d41e8.json": "8a7bc119e80e150ee78ada7f9406aac4f3c27eb27e878572a86599c62a5992e8",
+    "research/results/crypto-v1/metrics.json": "2eda50e7d41630ac7aaa898f340c424f74c35be4991c14f30fd02a6ecd20ab59",
+    "runs/3dadd638fe75c9ca.json": "6bae66e2015c9afafe4c1fb2302379ab05abf31137a87c35a44619cab36ec6f8",
+    "runs/e60e949f7ed4c1dc.json": "a67ef2640bd836993af9e8ee60d4acd1abdd1fdd7b871b802ff5a282ccc41911"
+  },
+  "scope": "Different tasks and return conventions; no pooled cross-experiment performance ranking."
+}
