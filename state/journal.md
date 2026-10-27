@@ -66,3 +66,52 @@ One entry per wake-up, newest last, at most ten lines each.
 - Existing 67 tests plus 9 previous-extension and 7 new futures behavior checks passed; protected core is unchanged.
 - Separate read-only reviewer found no substantive unsupported claims; same model family and not independent human or source/provenance review.
 - Not established: profitable execution, historical publication latency, LLM improvement or reproduction of the undisclosed original factor pool and equity model.
+
+## Walk-forward: design before locking
+- User requests persistent research until reproduction/improvement; original undisclosed artifacts remain unavailable, so empirical success is explicitly distinguished from exact reproduction.
+- 2024 event-study outcomes are development evidence; no 2025 candidate or holdout scores have been computed before this card lock.
+- Freeze three final quarters (April-June, July-September, October-December 2025), each selected on the preceding quarter, with training ending before that validation quarter.
+- Thirteen registered candidates include cash and four OI quantiles crossed with absent/weak/strong flow filtering. Select by validation mean minus a fixed standard-error penalty; require twenty validation trades except for cash.
+- Base cost is two basis points per leg including an extra execution-cost allowance; five-bp stress. One hundred aggregate test trades required for performance verdicts.
+- H1 positive and H2 baseline-incremental fourteen-day block-bootstrap intervals plus H4 nonnegative quarters/positive stress PNL are the predeclared joint empirical target. This does not establish the original headline numbers or universal profitability.
+- All candidate histories, abstentions and negative results will be retained. No test-selected policy changes within this frozen protocol.
+- Input reconstruction, archive checksum validation and 256 scalar feature checks passed before performance execution. A future-return perturbation test preserves the earlier selection.
+
+## Hybrid confirmation: pre-training plan
+- User explicitly asks for continued experimentation rather than stopping after one card; immutable-card, verification-failure and governor limits remain in force.
+- After the frozen 2025 walk-forward policy chose cash throughout, 2025 is treated as development history, not fresh confirmation evidence.
+- Freeze two CNN/attention widths, GRU and ridge, three neural seeds, training/validation windows and trading rules before training; record trainer/evaluator hashes in model_forecasts/plan.json.
+- Reserve January-September 2026 for confirmation. No 2026 strategy or model scores have been inspected before plan creation.
+- Model checkpoints selected only by prior validation IC; trading thresholds and sign calibrated only on validation. Abstain if all eligible validation net-PNL thresholds lose.
+- Training and inference use an optional isolated environment. A later L3 forecast-evaluation card must not be described as certification of GPU retraining or original AQuA equivalence.
+
+## Hybrid confirmation: design before scoring
+- Pre-training plan and source hashes match. Nine neural seed runs trained only on July 2024-September 2025 and selected checkpoints on October-December 2025 validation.
+- Exported January-September 2026 predictions have not been scored. CPU evaluator, candidate/sign/threshold selection and hypotheses were frozen in the plan before training.
+- Models use price, volume, OI and time features on one BTC contract; not the original pure-price-volume US equity panel or its undisclosed architecture.
+- Cached raw inputs rebuild identically; checkpoint inference replays within the predeclared numerical tolerance. This shares model/preparation code and is not an independent training proof.
+- L3 evaluation pins forecasts, training metadata, plan, trainer and provenance; it does not re-execute optional GPU training.
+- Success requires positive test IC, positive net daily PNL and positive incremental IC over GRU intervals, plus positive stress PNL. Intervals containing zero remain inconclusive; no threshold adjustments after test inspection.
+
+## Extended confirmation: recorded results and review
+- Walk-forward run 9ad10ec0892047f6 verifies at L3. All quarters select cash: zero trades, zero PNL, empirical target not achieved; this does not demonstrate profitability.
+- Hybrid run 55cf5d72f8ec4568 verifies pinned forecast evaluation at L3. Selected CNN IC 0.00589120 has a zero-containing interval and no supported improvement over GRU; validation forces trading abstention.
+- Separate raw reconstruction and checkpoint inference audits pass. Full nine-member training repeated in a fresh directory produces identical forecasts on the same runtime; cross-hardware repeatability is not established.
+- Fresh read-only reviewers examined cards, reports and notes. Revisions distinguish undefined cash Sharpe, vacuous zero-trade cross-checks and evaluation verification from training certification.
+- These reviewers are the same model family, a weaker check than a different model or human review. Strict note lint passes for both reports.
+- Interpretation: neither confirmation achieves its preregistered empirical target, and neither establishes original AQuA reproduction. Test results will not be used to retrofit the frozen policies.
+
+## US equity proxy: design before training or scores
+- User requests persistent experimentation. Governor currently permits continuation; prior frozen test results remain recorded.
+- Fixed public-source revision, AAPL/MSFT/JPM/XOM, regular NY sessions only, 64-minute histories and delayed non-overlapping thirty-minute open-to-open targets.
+- Train 2010-2017, select/checkpoint on 2018-2019, omit 2020, reserve 2021-July 2025. Four surviving stocks and incomplete 2025 differ materially from the undisclosed original universe.
+- Freeze CNN/temporal/cross-stock attention candidates and GRU controls, Huber/IC-loss variants, three seeds and ridge before training. Train-only normalization; no test selection.
+- Joint proxy success requires positive held-out IC and incremental IC confidence bounds, positive costed daily PNL bound with sufficient activity, positive stress PNL and nonnegative individual years.
+- The public dataset card does not establish adjustment provenance or licensing. Raw/derived prices remain in an external local cache and are not redistributed; source quality limits must accompany any empirical result.
+
+## README evidence presentation
+- Maintainer requested illustrated presentation of the two completed confirmation experiments in README.
+- Added Chinese protocol/result summaries and PNG/SVG figures drawn directly from immutable recorded runs, with source hashes and a rerunnable optional plotting script.
+- Figures distinguish cash abstention, descriptive baseline scores and zero-containing intervals. Neither experiment is presented as profitable or as original-paper reproduction.
+- This is presentation of existing results, not a new experiment or a change to frozen model, data or evaluation sources.
+- Initial presentation gate 9f662210f401 failed because new SVG exports lacked root titles and README SVG links; add both to satisfy the existing checks without changing tests or frozen sources.

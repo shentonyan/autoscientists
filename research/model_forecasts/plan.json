@@ -1,0 +1,36 @@
+{
+  "train": "2024-07-01 through 2025-09-30",
+  "validation": "2025-10-01 through 2025-12-31",
+  "test": "2026-01-01 through 2026-09-30",
+  "history_bars": 64,
+  "models": [
+    "cnn32",
+    "cnn64",
+    "gru32",
+    "ridge"
+  ],
+  "seeds": [
+    7,
+    19,
+    43
+  ],
+  "epochs_max": 16,
+  "patience": 4,
+  "batch": 256,
+  "learning_rate": 0.0003,
+  "selection": "best absolute validation IC among the two CNN ensembles; sign calibrated on validation",
+  "strategy": "best validation net-PNL threshold at 80/90/95 percentiles; cash if no validation-profitable threshold",
+  "cost_bps_per_leg": 2,
+  "stress_bps_per_leg": 5,
+  "minimum_validation_trades": 20,
+  "minimum_test_trades": 100,
+  "bootstrap_repetitions": 5000,
+  "block_days": 14,
+  "success": "positive held-out IC, positive net PNL, and positive incremental IC over GRU under preregistered intervals; positive stress PNL",
+  "hashes": {
+    "research/train_hybrid.py": "bbe848c31c19cb168c4670c2790b8a7ae71808ef2b4d58afe53777549923b791",
+    "experiments/aqua_hybrid_confirmation.py": "a5e0773d1c68b8514d253ea0ebc3c62f1a105e45a584cef6413660514f423434",
+    "research/futures_data.py": "b54d98f965a44afaa8542aebef2e421433ab825f70a5cbc954974374e590f6ed"
+  },
+  "scope": "independent architecture-level reproduction; not original proprietary architecture, cross-sectional equity task or headline result"
+}

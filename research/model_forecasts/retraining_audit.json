@@ -1,0 +1,10 @@
+{
+  "max_absolute_forecast_differences": {
+    "cnn32": 0.0,
+    "cnn64": 0.0,
+    "gru32": 0.0,
+    "ridge": 0.0
+  },
+  "within_1e_7": true,
+  "scope": "full same-runtime retraining comparison; not cross-hardware guarantee or original AQuA reproduction"
+}
