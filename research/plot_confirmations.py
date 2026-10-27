@@ -32,6 +32,7 @@ def save(fig, name):
     title.text = fig._suptitle.get_text()
     tree.getroot().insert(0, title)
     tree.write(vector, encoding="utf-8", xml_declaration=True)
+    vector.write_text("\n".join(line.rstrip() for line in vector.read_text(encoding="utf-8").splitlines()) + "\n", encoding="utf-8")
     plt.close(fig)
 
 
