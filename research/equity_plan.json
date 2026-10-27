@@ -1,0 +1,63 @@
+{
+  "version": "equity-proxy-v1",
+  "source_revision": "ef1551b11d8ee3e35c7521cf36deee155b43e77d",
+  "source_hashes": {
+    "research/train_equity.py": "744dbbb42c10466868d861f935e6b8c44ee4e3b1fe169da399e3e453df34349f",
+    "research/prepare_equity.py": "6dcd8bc5e378db72c6ba2005aef37ccf2c850a18909eec3a30800b88ac952389",
+    "research/equity_metrics.py": "883a942334fbd9888fc097f2bb62ae5cbcb8eaf5cb6eaba2805b5f392c05543c",
+    "research/evaluate_equity.py": "dee3a87207ba6c84b3b4b32826409f4f70c7066485764f1302180ce785a065ab",
+    "research/train_hybrid.py": "bbe848c31c19cb168c4670c2790b8a7ae71808ef2b4d58afe53777549923b791",
+    "research/equity_public_audit.py": "380f13e3cbe638a79b7b6e8cf257de1275db871fb3b7a6b94b23510249f814d5"
+  },
+  "symbols": [
+    "AAPL",
+    "MSFT",
+    "JPM",
+    "XOM"
+  ],
+  "train": "2010-2017",
+  "validation": "2018-2019",
+  "embargo": "2020",
+  "test": "2021-July 2025",
+  "history_minutes": 64,
+  "horizon_minutes": 30,
+  "full_extra_execution_delay_minutes": 1,
+  "models": [
+    "cnn32",
+    "cnn32_ic",
+    "cnn64_ic",
+    "gru32",
+    "gru32_ic",
+    "ridge"
+  ],
+  "seeds": [
+    7,
+    19,
+    43
+  ],
+  "neural_epochs_max": 20,
+  "patience": 5,
+  "batch_panels": 128,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "selection": "CNN and GRU each maximize absolute mean per-stock validation Pearson IC; signs validation only",
+  "trading": "half notional long highest score, half short lowest; confidence thresholds validation dispersion quantiles 0.5/0.75/0.9; cash unless >=100 validation active intervals and positive validation net PNL; net contiguous weights, liquidate gaps",
+  "cost_per_unit_turnover": 0.0001,
+  "stress_cost_per_unit_turnover": 0.0005,
+  "intervals": "1000 resamples, twenty observed trading-day blocks, seed 20261027",
+  "joint_success": [
+    "lower IC bound >0",
+    "lower paired incremental IC vs validation-chosen GRU bound >0",
+    "lower mean daily net PNL bound >0 and >=100 test active intervals",
+    "stress PNL >0",
+    "all test year PNL >=0"
+  ],
+  "not_established": [
+    "original proprietary implementation",
+    "full original universe",
+    "corporate-action adjustment provenance",
+    "dataset licensing",
+    "complete 2025"
+  ],
+  "test_scores_seen": false
+}

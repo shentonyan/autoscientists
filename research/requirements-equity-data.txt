@@ -1,0 +1,6 @@
+# Optional public-source audit environment, separate from training and core.
+numpy==2.5.4
+pyarrow==26.0.0
+fsspec==2026.9.0
+aiohttp==3.14.5
+tzdata==2026.5

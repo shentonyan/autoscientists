@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "runs/9ad10ec0892047f6.json": "4e508991632324518cdb100474ec11edcbd95338488f6ed5fa028fe1aeb6cc2c",
+    "runs/55cf5d72f8ec4568.json": "e21b46f6bfd0e837de07519cd98a23672486ad8ac316592e383bce86b6a54402"
+  },
+  "scope": "Recorded point estimates and intervals only; no new model training or test selection.",
+  "walk_quarterly_arithmetic_pnl": [
+    {
+      "selected": 0.0,
+      "oi_reference": -0.036543705665816245,
+      "weak_reference": -0.011409187214742968
+    },
+    {
+      "selected": 0.0,
+      "oi_reference": -0.009452626046633385,
+      "weak_reference": -0.01636454551071258
+    },
+    {
+      "selected": 0.0,
+      "oi_reference": -0.03282052287975425,
+      "weak_reference": -0.026730900617743577
+    }
+  ],
+  "hybrid_point_ic": {
+    "cnn32": 0.0058912036477062005,
+    "cnn64": 0.00991113637106493,
+    "gru32": 0.01843661027794232,
+    "ridge": 0.00020524258129172557
+  },
+  "cnn_ic_interval": [
+    -0.015729921410489265,
+    0.029250581773954298
+  ],
+  "cnn_minus_gru_interval": [
+    -0.035642007529228574,
+    0.012438263058873212
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "raw_inputs_rebuilt_identically": true,
+  "checkpoint_inference_replay_passed": true,
+  "max_absolute_prediction_differences": {
+    "cnn32": 7.458842563250569e-08,
+    "cnn64": 2.8445447268711694e-08,
+    "gru32": 0.0,
+    "ridge": 0.0
+  },
+  "scope": "same forward model, raw preparation and checkpoint replay; not independent architecture validation or full training replay"
+}

@@ -25,3 +25,12 @@ jobs:
         run: python research/check_futures.py
       - name: Verify preregistered public-data futures study
         run: python -m autosci verify aqua-futures-events --strict
+      - name: Walk-forward and model evaluation behavior checks
+        run: |
+          python research/check_walk_forward.py
+          python research/check_model_evaluator.py
+          python research/check_equity.py
+      - name: Verify frozen walk-forward and forecast confirmation cards
+        run: |
+          python -m autosci verify aqua-walk-forward --strict
+          python -m autosci verify aqua-hybrid-confirmation --strict
